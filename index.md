@@ -5,6 +5,9 @@ title: Open GIScience
 
 # Fall 2023 Open GIScience
 
+In this course, we will study geographic information science (GIScience) by reproducing published research with open-source geospatial software.
+We will debate issues in GIScience by applying critical GIS scholarship, fundamentals of spatial data and analysis, and evidence from our reproduction studies. We will practice open GIScience by collaboratively developing research plans, acquiring and describing spatial data, analyzing and visualizing data with SQL and R, and testing for error and uncertainty. Our research products and results will be published with open science standards in public portfolios. We typically investigate research with themes of human-environment interactions, health, hazards, urban development, and more. These research themes require and integrate social/demographic data, environmental data, and big data.
+
 *note*: Most of the content here has yet to be updated from Fall 2021.
 
 Meeting | Lesson

@@ -23,13 +23,7 @@ For assistance outside of office hours, your resources include:
 3. Documentation, Issues, Forums, or Support/FAQs for the data or software we are using
 4. [Stack Exchange](https://gis.stackexchange.com/) or similar
 5. Post a new [course issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
-8. Only private/confidential concerns should be sent to email 
-
-## Course Description
-
-In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship. In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization. We will read and apply critical research of GIS as a subject and with GIS as a methodology. Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media).
-
-Prerequisite: GEOG0120 *Human Geography with GIS*. Programming experience is *not assumed or required*! You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
+8. Only private/confidential concerns should be sent to email
 
 ## Learning Goals
 
@@ -53,7 +47,7 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 ## Student Work & Evaluation
 
 - **Blog Posts & Active Participation** `0.2` (routine)
-  - Maintain GitHub site & repositories 
+  - Maintain GitHub site & repositories
   - Review or react to readings in a *personal* blog post.
   - *Collaboratively* take notes on discussions or while studying papers, software, or data sources.
   - Friday in-person discussions will be as lively as you make them as a group.
