@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+  <p>
+{% if page.format %}
+    {{ page.date | date: '%b-%d' }} {{ post.format | capitalize }}
+{%- endif -%}
+{% if page.purpose %}
+    : In this lesson, we will {{ page.purpose }}.
+{% endif %}
+  </p>
+{{ content }}
+<p align=center><a href="{{ site.url }}">Main Page</a></p>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header"><a href="{{ site.url}}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+
+          <ul>
+            <li><a class="buttons github" href="{{ site.github.owner_url }}">GIS4DEV</a></li>
+            <li><a class="buttons link" href="https://HEGSRR.github.io">HEGSRR</a></li>
+            <li><a class="buttons github" href="https://github.com/HEGSRR/">HEGSRR</a></li>
+          </ul>
+
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+      <p>&nbsp;</p>
+      {% if page.date %}
+        {% if page.next.url %}
+          <p align="center">
+            <a href="{{page.next.url}}">{{page.next.title}} &#9655;&#9655;</a>
+          </p>
+        {% else %}
+          <p align="center">
+            <a href="{{site.url}}">Main Page &#9655;&#9655;</a>
+          </p>
+        {% endif %}
+        {% if page.previous.url %}
+          <p align="center" style="min-height:5em;">
+            <a href="{{page.previous.url}}">&#9665;&#9665; {{page.previous.title}}</a>
+          </p>
+        {% else %}
+          <p align="center" style="min-height:5em;">
+          <a href="{{site.url}}">&#9665;&#9665; Main Page</a>
+          </p>
+        {% endif %}
+      {% endif %}
+
+      <p align="center">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br>
+      <small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution NonCommercial ShareAlike License</a></small>
+      </p>
+
+      <p><small>
+        Hosted on <a href="https://pages.github.com">GitHub Pages</a> based on the <a href="https://github.com/pages-themes/dinky">Dinky</a> theme
+      </small></p>
+      </footer>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>
