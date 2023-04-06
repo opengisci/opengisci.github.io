@@ -10,14 +10,13 @@ We will debate issues in GIScience by applying critical GIS scholarship, fundame
 
 *note*: Most of the content here has yet to be updated from Fall 2021.
 
-## 2023
+## Fall 2023
 
 Meeting | Lesson
 ------- | ------
+day1 | first lesson
 {% for post in site.posts reversed -%}
-{%- if post.term == "fa23" -%}
-{%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
-{% endif %}
+{%- if post.term == "fa23" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a> {%- endif -%}
 {% endfor %}
 
 ## All Lessons
