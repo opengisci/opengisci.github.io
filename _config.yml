@@ -5,3 +5,4 @@ collections:
   lessons:
     output: true
 timezone: America/New_York
+future: true
