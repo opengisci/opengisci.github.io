@@ -14,9 +14,10 @@ We will debate issues in GIScience by applying critical GIS scholarship, fundame
 
 Meeting | Lesson
 ------- | ------
-day1 | first lesson
+day1 | new line
 {% for post in site.posts reversed -%}
-{%- if post.term == "fa23" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a> {%- endif -%}
+{%- if post.term == "fa23" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
+{% endif -%}
 {% endfor %}
 
 ## All Lessons
