@@ -12,14 +12,13 @@ We will debate issues in GIScience by applying critical GIS scholarship, fundame
 
 ## 2023
 
-{% assign posts23 = site.posts | where: "date" > 2022 %}
-
 Meeting | Lesson
 ------- | ------
-{% for post in posts23 reversed -%}
+{% if post.term == "fa23" %}
+{% for post in site.posts reversed -%}
 {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
+{% endif %}
 {% endfor %}
-
 
 ## All
 
