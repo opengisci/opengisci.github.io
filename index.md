@@ -24,7 +24,7 @@ Meeting | Lesson
 
 Meeting | Lesson
 ------- | ------
-{% for post in site.posts reversed -%}
+{%- for post in site.posts reversed -%}
 {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
 {% endfor %}
 
