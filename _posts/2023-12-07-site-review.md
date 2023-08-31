@@ -3,6 +3,7 @@ layout: lesson
 title: "GitHub Site Review"
 purpose: "peer review GitHub site portfolios"
 format: lecture
+term: fa23
 ---
 
 We will take this meeting time to review one another's work in the course thus far.

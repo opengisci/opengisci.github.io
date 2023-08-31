@@ -2,7 +2,9 @@
 layout: lesson
 title: Honor Code
 purpose: establish professional conduct in Open GIScience
-date: 2021-09-14 09:40
+date: 2022-09-12 09:40
+format: syllabus
+term: fa23
 ---
 
 ## General Principles

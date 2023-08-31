@@ -3,6 +3,7 @@ layout: lesson
 title: "Independent Project Ideas"
 purpose: "generate feasible ideas for an independent project"
 format: lecture
+term: fa23
 ---
 
 During this lesson, we will discuss and decide upon project ideas. Projects should be similar in difficulty and scope to one of the four labs this semester, and should encompass a research study using spatial analysis with open source GIS technology.

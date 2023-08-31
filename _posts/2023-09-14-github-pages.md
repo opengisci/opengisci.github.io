@@ -2,8 +2,9 @@
 layout: lesson
 title: GitHub as a Research and Publishing Tool
 purpose: "publish a website with GitHub, Jekyll, and Markdown and learn purpose and concepts for Git version control"
-format: workshop
-date: 2021-09-16 13:30
+format: tutorial
+date: 2023-09-14 13:30
+term: fa23
 ---
 
 ## Expectations

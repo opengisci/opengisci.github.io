@@ -4,15 +4,14 @@ title: Open GIScience
 purpose: "read and debate the motivations and visions for Open GIScience"
 format: lecture
 date: 2021-09-16 09:30
+term: fa23
 ---
 
 ## Reading
 
 - Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
 - Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information Science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
-- Dr. Rachel Ainsworth discusses open science culture: https://youtu.be/c-bemNZ-IqA 
-
-
+- Dr. Rachel Ainsworth discusses open science culture: https://youtu.be/c-bemNZ-IqA
 
 ## Discussion
 

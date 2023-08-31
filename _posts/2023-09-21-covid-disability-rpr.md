@@ -3,7 +3,8 @@ layout: lesson
 title: "Disability and COVID-19 Reproduction"
 purpose: "reproduce county-level association of disability and COVID-19"
 format: workshop
-date: 2021-12-02 13:30
+date: 2023-09-21 13:30
+term: fa23
 ---
 
 The purpose of this workshop is to reproduce Chakraborty (2021) and in doing so, learn about spatial scan statistics for epidemiology and about generalized estimating equations.

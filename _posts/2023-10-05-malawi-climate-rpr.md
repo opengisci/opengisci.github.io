@@ -2,8 +2,9 @@
 layout: lesson
 title: Malawi Climate Vulnerability Reproduction
 purpose: "reproduce a climate vulnerability model of Malawi"
-format: workshop
-date: 2021-11-04 13:30
+format: lab
+date: 2023-10-05 13:30
+term: fa23
 ---
 
 In this workshop we will:

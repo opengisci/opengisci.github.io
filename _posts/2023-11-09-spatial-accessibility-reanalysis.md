@@ -3,7 +3,8 @@ layout: lesson
 title: COVID-19 Spatial Accessibility Replication
 purpose: "reanalyze/replicate COVID-19 spatial accessibility"
 format: lab
-date: 2021-10-28 13:30
+date: 2023-11-09 13:30
+term: fa23
 ---
 
 ## Expectations

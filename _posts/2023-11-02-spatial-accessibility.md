@@ -3,7 +3,8 @@ layout: lesson
 title: COVID-19 Spatial Accessibility
 purpose: "study COVID-19 spatial accessibility of health care"
 format: lecture
-date: 2021-10-21 09:30
+date: 2023-11-02 09:30
+term: fa23
 ---
 
 ## Reading
