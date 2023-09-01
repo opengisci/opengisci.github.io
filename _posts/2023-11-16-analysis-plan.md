@@ -3,6 +3,7 @@ layout: lesson
 title: "Analysis Plan Registration"
 purpose: "write pre-analysis plan and gather required data for independent replication"
 format: lecture
+term: fa23
 ---
 
 - OSF [Preregistration](https://www.cos.io/initiatives/prereg)

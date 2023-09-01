@@ -3,6 +3,7 @@ layout: lesson
 title:  Database Ethnography and Provenance
 purpose: "investigate and document data's history and social context"
 format: lecture
+term: fa23
 ---
 
 ## Reading

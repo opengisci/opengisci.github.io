@@ -3,6 +3,7 @@ layout: lesson
 title: Error and Uncertainty
 purpose: "develop conceptual tools for describing and managing error and uncertainty"
 format: lecture
+term: fa23
 ---
 
 ## Reading
