@@ -1,9 +1,9 @@
 ---
 layout: lesson
 title: "Replication Study Implementation"
-purpose: "implement and workshop the independent replication study during the final lab period"
-format: lab
-date: 2021-12-09 13:30
+purpose: "implement replication study with research compendium"
+format: lecture
+term: fa23
 ---
 
 - Please structure your final project using the [template for reproducible research](https://github.com/HEGSRR/HEGSRR-Template)

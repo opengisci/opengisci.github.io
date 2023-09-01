@@ -7,7 +7,7 @@ date: 2023-10-05 13:30
 term: fa23
 ---
 
-In this workshop we will:
+In this lab we will:
 
 - complete a reproduction of Malcomb et al (2014)
 - compare reproduction results with original results

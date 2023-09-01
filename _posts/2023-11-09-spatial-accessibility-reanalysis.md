@@ -9,9 +9,9 @@ term: fa23
 
 ## Expectations
 
-The purpose of this lab is to publish a reproduction of the COVID-19 Spatial Accessibility Notebook.
+The purpose of this lab is to publish a reanalysis of the COVID-19 Spatial Accessibility Notebook.
 
-The published lab is due on **Tuesday, November 2**
+The published lab is due on **Tuesday, November 14**
 
 - Make some (modest) improvements to the Where COVID-19 notebook and repository (ideas based on lecture discussion)
 - Push changes from CyberGISX to your GitHub Repository

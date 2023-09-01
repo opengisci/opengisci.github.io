@@ -2,8 +2,8 @@
 layout: lesson
 title: Introductory Spatial Python
 purpose: "practice using Python Jupyter notebooks and GeoPandas with cyberinfrastructure"
-format: workshop
-date: 2021-10-14 13:30
+format: tutorial
+term: fa23
 ---
 
 ## Introductory Spatial Python CyberGISX Tutorials
@@ -19,8 +19,19 @@ date: 2021-10-14 13:30
   - [Python Intro](/assets/python-intro.py)
   - [Geospatial Python](/assets/python-geospatial.py)
 
-## What's next?
+## Technology Context
 
-What's coming next after break? We'll try a reproduction study of Kang et al (2020) on the [CyberGISX](https://cybergis.illinois.edu/) Cyberinfrastructure Research Platform!
+- [Juypter notebooks](https://jupyter.org/) are a prime example of a [computational notebook](https://www.nature.com/articles/d41586-018-07196-1), primarily using [Python](https://www.python.org/)
+- [Pandas](https://pandas.pydata.org/) provides SQL-like database structures and functions
+- [GeoPandas](https://geopandas.org/) provides spatial analysis functions
+- Much of GeoPandas is based on [Shapely](https://shapely.readthedocs.io) geometry types and functions
+- [PySAL](https://pysal.org/) implements advanced spatial analysis and statistics, building off of the GeoPandas package
 
-Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
+## Spatial data science with python on your own
+
+What if you want to use Python and Jupyter notebooks to practice spatial data science on your local computer, without access to servers like Hour of CI and CyberGISX? You can install [Anaconda](https://www.anaconda.com/) and create a local conda environment including Jupyter notebooks and packages for spatial data science. The `pandas` package provides the database functions you learned to love in `SQL` while the `geopandas` package provides the spatial functions, analogous to `PostGIS`.
+
+## Cheat Sheets
+
+- [Pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [DataCamp Cheat Sheets](https://www.datacamp.com/community/data-science-cheatsheets)

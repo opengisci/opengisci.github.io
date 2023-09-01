@@ -52,6 +52,16 @@ We can debate this in the context of this ESRI tool for [managing COVID testing 
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
 
+## Open standards and software library implementations
+
+- The Open Geospatial Consortium (OGC) created [simple features standards](https://www.ogc.org/standards/sfa)
+- Geometry Engine Open Source (GEOS) is an [open source code library](https://trac.osgeo.org/geos) in C++ for implementing the OGC simple feature standards
+- Who uses GEOS?
+  - [PostGIS](https://postgis.net/) does!
+  - [Shapely](https://pypi.org/project/Shapely/) does, which is in turn used by [GeoPandas](https://geopandas.org/) for spatial data science in Python.
+  - [Simple Features for R](https://r-spatial.github.io/sf/) does, which is the basis of spatial analysis in R.
+  - [QGIS](https://qgis.org/) does!
+
 ## A 'Show Me the Code' Example: Distance Matrix in QGIS
 
 The `Distance Matrix` [algorithm documentation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#distance-matrix) says nothing about how it calculates distances!
