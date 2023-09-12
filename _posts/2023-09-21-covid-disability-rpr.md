@@ -2,7 +2,7 @@
 layout: lesson
 title: "Disability and COVID-19 Reproduction"
 purpose: "reproduce county-level association of disability and COVID-19"
-format: workshop
+format: lab
 date: 2023-09-21 13:30
 term: fa23
 ---

@@ -3,6 +3,7 @@ layout: lesson
 title: Is GIS a Science?
 purpose: "debate whether GIS is a science and contest how GIS is represented"
 format: lecture
+date: 2023-09-14 11:15
 term: fa23
 ---
 
