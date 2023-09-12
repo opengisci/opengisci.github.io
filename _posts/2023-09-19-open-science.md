@@ -1,18 +1,25 @@
 ---
 layout: lesson
-title: Open GIScience
-purpose: "read and debate the motivations and visions for Open GIScience"
+title: Reproducible and Open GIScience
+purpose: "debate the roles of open source GIS and Open GIScience"
 format: lecture
-date: 2023-09-14 11:15
+date: 2023-09-19 11:15
 term: fa23
 ---
 
 ## Reading
 
+- NASEM. 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. [DOI: 10.17226/25303](https://doi.org/10.17226/25303)
+  - Chapter 3, *Understanding reproducibility and replicability* (pages 31-43 )
 - Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
 - Dr. Rachel Ainsworth discusses open science culture: https://youtu.be/c-bemNZ-IqA
 
 ## Discussion
+
+In preparation for this debate, please prepare a reflection/position statement on the two questions in the form of a blog-style post on your GitHub site.
+Specifically, you might reflect on:
+1. To what extent does **open source GIS** help solve the problems of the **reproducibility crisis for geography**? How?
+2. Are there problems with reproducibility and replicability in geography that open source GIS cannot help solve?
 
 While you read these, consider:
 - What are the meanings of *free software*, *open source*, and *open science*?
@@ -42,9 +49,10 @@ While you read these, consider:
 
 We can debate this in the context of this ESRI tool for [managing COVID testing sites](https://www.esri.com/en-us/covid-19/response)
 
-### Additional resources on open science and licensing
+### Additional resources on Open GIScience
 
 - Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information Science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
+- Sui, D., and P. Kedron. 2021. Reproducibility and Replicability in the Context of the Contested Identities of Geography. *Annals of the American Association of Geographers* 111 (5):1275–1283. DOI:[10.1080/24694452.2020.1806024](https://doi.org/10.1080/24694452.2020.1806024).
 - Stodden, V. 2014. What computational scientists need to know about intellectual property law: A primer. In *Implementing Reproducible Research*, eds. V. Stodden, F. Leisch, and R. D. Peng, 325–340. Boca Raton: CRC Press.
 - The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
 - The [MIT License](https://opensource.org/licenses/MIT)

@@ -3,8 +3,9 @@ layout: lesson
 title: SoVI Validity
 purpose: "study the replication and validity checks of SoVI"
 format: lecture
+date: 2023-10-19 11:15
 term: fa23
 ---
 
-- Cutter's Social Vulnerability Index (SoVI)
+- Spielman et al's replication of SoVI
 - Principal Component Analysis

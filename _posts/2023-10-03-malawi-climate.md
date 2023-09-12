@@ -3,7 +3,7 @@ layout: lesson
 title: Malawi Climate Vulnerability
 purpose: "study a climate vulnerability model of Malawi"
 format: lecture
-date: 2023-10-03 09:30
+date: 2023-10-03 11:15
 term: fa23
 ---
 

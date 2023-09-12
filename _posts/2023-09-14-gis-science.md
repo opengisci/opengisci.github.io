@@ -15,10 +15,6 @@ term: fa23
 - St. Martin, K., and J. Wing. 2007. The discourse and discipline of GIS. *Cartographica* 42 (3):235–248. DOI:[10.3138/carto.42.3.235-248](https://doi.org/10.3138/carto.42.3.235-248)
   - Focus on pages 239-245 to understand the four themes of GIS Discourse (see below) and their implications for geography and for and teaching GIS
 
-## Blog post
-
-The first blog post should be complete prior to today's class, and may cover any content up to and including today's readings.
-
 ## Discussion
 
 1. What is science?
@@ -28,9 +24,10 @@ The first blog post should be complete prior to today's class, and may cover any
 1. To what extent does Open Source / Open Science contradict or support
 the predominant representation of GIS?
 
-In preparation for/response to the debate, please prepare a reflection/position statement in a blog-style post on your GitHub site.
+In preparation for class discussion, please prepare a blog-style reflection/position statement, which you will post on a GitHub site in the afternoon lab.
 Specifically, you might reflect on:
 - Which category of **"GIS as Science"** most applies to your **personal experience thus far** using and studying GIS? Do those forms of GIS count as **"science"**?
+- Which themes of **GIS Discourse** have attracted you to the technology or made you feel uneasy about it? Have your instructors or mentors made any arguments similar to the four themes, or have you made them yourself in conversations with friends and family?
 
 ### Three Positions on GIS as Science (Wright et al 1997)
 
