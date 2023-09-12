@@ -2,6 +2,7 @@
 layout: lesson
 title: Year of Open Science
 purpose: motivation
+date: 2022-09-12 11:40
 format: syllabus
 term: fa23
 ---

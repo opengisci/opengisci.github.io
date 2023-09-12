@@ -10,7 +10,6 @@ term: fa23
 ## Reading
 
 - Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
-- Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information Science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
 - Dr. Rachel Ainsworth discusses open science culture: https://youtu.be/c-bemNZ-IqA
 
 ## Discussion
@@ -21,7 +20,7 @@ While you read these, consider:
 - In what way might something be *open source* but not *free*?
 - As we practice Open GIScience in this class, what are the implications for:
   - Learning
-  - The [Honor Code](/2021/09/14/honorcode)
+  - The [Honor Code](/2023/09/12/honorcode)
   - Evaluation & Grades
 - Is there space for Open GIScience in an undergraduate liberal arts education?
 - What risks/benefits do you see for use of open source GIS in:
@@ -45,6 +44,7 @@ We can debate this in the context of this ESRI tool for [managing COVID testing 
 
 ### Additional resources on open science and licensing
 
+- Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information Science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
 - Stodden, V. 2014. What computational scientists need to know about intellectual property law: A primer. In *Implementing Reproducible Research*, eds. V. Stodden, F. Leisch, and R. D. Peng, 325–340. Boca Raton: CRC Press.
 - The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
 - The [MIT License](https://opensource.org/licenses/MIT)

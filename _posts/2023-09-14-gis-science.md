@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: What is OpenGIScience?
+title: Is GIS a Science?
 purpose: "debate whether GIS is a science and contest how GIS is represented"
 format: lecture
 term: fa23
