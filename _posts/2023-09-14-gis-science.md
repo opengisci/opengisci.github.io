@@ -9,6 +9,8 @@ term: fa23
 
 ## Reading
 
+Enrolled students, please find course literature [here](https://www.github.com/opengisci/literature), organized by article title, book chapter title, or book title.
+
 - NASEM (National Academies of Sciences, Engineering, and Medicine). 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. DOI:[10.17226/25303](https://doi.org/10.17226/25303)
   - Chapter 2: *Scientific methods and knowledge* (pages 21-30 )
 - Wright, D. J., M. F. Goodchild, and J. D. Proctor. 1997. GIS: Tool or science? Demystifying the persistent ambiguity of GIS as “tool” versus “science.” *Annals of the Association of American Geographers* 87 (2):346–362. DOI:[10.1111/0004-5608.872057](https://doi.org/10.1111/0004-5608.872057)
