@@ -2,7 +2,7 @@
 layout: lesson
 title: Honor Code
 purpose: establish professional conduct in Open GIScience
-date: 2022-09-12 09:40
+date: 2022-09-12 11:30
 format: syllabus
 term: fa23
 ---
@@ -15,7 +15,7 @@ term: fa23
    1. Overcoming stigma about asking for assistance to model real-world interactions in this open-source field by having a platform available to resolve issues when we get “stuck”
    1. Implicit consent, as a class there should be an underlying trust that we should be able to use others code/tools without directly asking
    1. Many suggestions for a collaborative communication channel.
-      1. GitHub has [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues), and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) to share problems and solutions.
+      1. GitHub has an Issues feature to share problems and solutions.
       1. Open to suggestions on using other channels, but whatever you use should be *inclusive*.
 1. Citation and documentation of work
    1. In collaboration, document what you contribute/what others contributed. Giving credit helps lift everyone up.
@@ -31,9 +31,9 @@ term: fa23
 1. Later posters may react and respond to earlier students' contributions
    1. This is not a required expectation, but if you do look at others' contributions, you should link to them if they're influencing your thought process.
 1. Informal citation is encouraged through inclusion of hyperlinks.
-1. Aim to finish writing when you’re proud of the work you’ve produced. This length may look different for different people and different topics, and that’s okay.
+1. Aim to finish writing when you're proud of the work you've produced. This length may look different for different people and different topics, and that's okay.
 
-## Regarding GIS Analyses
+## Regarding Reproduction/Reanalysis/Replication Projects
 
 1. Transparency and reproducibility
    1. For assessment: readability/clarity of code and documentation
@@ -54,3 +54,7 @@ term: fa23
    1. Yes, there definitely will be some collaboration by design in the analyses.
 
 This honor code statement is the product of collaborative discussion by the class in breakout groups on March 1, 2021, with some organization and additions by Professor Holler.
+
+## Regarding Generative AI
+
+Let's debate!
