@@ -9,39 +9,37 @@ term: fa23
 
 ## Expectations
 
-- Publish a GitHub pages site with a main page and one blog post for next Tuesday
+- Publish and customize a GitHub pages site with an 'about' page
+- Add at least one blog post
 
-## Instructions
 
-- [video tutorial playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)
-- [merge changes from main branch to your copy on GitHub](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db)
-- *note*: I need to review/revise this playlist to integrate branches, diffs, versioning
 
 ## Git
 
-Lost documents? Nightmares from merging sloppy revisions from your team? Group member accidentally ruins your project the night before a presentation? Documents proliferating with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? Can't reproduce your own research when your thesis committee asks a question about what you did? "GO ON, [GIT!](https://git-scm.com/)", ridiculously outdated document file systems and recycle bin fail-safe let-downs, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way [outta here!](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
-
-![Failing to print THESISFINALV2.pdf](/assets/thesis-final-v2.jpg) |
- :-: |
-*Don't be this student failing to print FINAL V2 overnight during finals week* |
-
 - [Git](https://git-scm.com/) is open-source software code for using version control for digital repositories and facilitating collaboration.
 - [Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
-- [GitHub](https://github.com) is one of many companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
+- [GitHub](https://github.com) is one of many services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
   - [GitHub](https://github.com) is a popular platform for hosting open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
   - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
 - RStudio allows you to manage projects with [Git version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
-- Atom integrates [GitHub for Atom](https://github.atom.io/)
 - QGIS code is stored in a GitHub Repository: [https://github.com/qgis/QGIS](https://github.com/qgis/QGIS)
   - including a forum for [Issues](https://github.com/qgis/QGIS/issues) like bug reports and feature requests.
   - and [pull requests](https://github.com/qgis/QGIS/pulls) containing proposed revisions to the QGIS source code
   - Issues and Pull Requests are the principle means by which the open source community contributes to the QGIS projects
 - Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
 
-## GitHub Pages
+## Markdown
 
 - GitHub has a [Markdown](https://guides.github.com/features/mastering-markdown/) language for writing and formatting everything from Readme documents to Wikis, Issues, and even webpages. Read and bookmark this guide: https://guides.github.com/features/mastering-markdown/
+- Use this [markdown cheat sheet](/assets/markdown.pdf)
+- Follow this 10 minute tutorial
+
+
+
+## GitHub Pages
+
+
 - [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages) is a service running on GitHub's servers that can transform your Markdown `.md` files into websites.
 - Each GitHub account can easily create a website by creating a repository named `username.github.io` where `username` is your GitHub user name.
   - For example, `GIS4DEV.github.io` is the repository serving this website for the `GIS4DEV` organization.
@@ -246,3 +244,8 @@ You can develop a more advanced sites customized for portfolios, blogging, docum
 - Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes, you must undo them all.
 - Therefore, `commit` frequently.
 - Once finished, always remember to `push` your latest commits.
+
+## Old Instructions
+
+- [video tutorial playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)
+- [merge changes from main branch to your copy on GitHub](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db)
