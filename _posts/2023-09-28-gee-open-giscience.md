@@ -9,7 +9,7 @@ term: fa23
 
 ## Readings
 
-1. foundational generalized estimating equations paper
+1. Hanley, J. A., Negassa, A., Edwardes, M. D. de B., & Forrester, J. E. (2003). Statistical analysis of correlated data using generalized estimating equations: An orientation. American Journal of Epidemiology, 157(4), 364–375. https://doi.org/10.1093/aje/kwf215
 1. choice of papers with further context and motivation for open GIScience
   - "Big Code" or
   - "Accelerating ethics, empathy, and equity in geographic information science"
