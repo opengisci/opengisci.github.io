@@ -50,7 +50,8 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 - `Commit`: Save a batch of changes to your repository, including a brief message and description
 - `Revert`: Undo one or more commits.
 - `Push`: Upload one or more commits from the local computer to the GitHub servers
-- `Pull`: Download one or more commits from the GitHub servers to your local computer. Or, if you have forked a repository and the original repository has continued to commit revisions, `pull` the revisions from the original version into your own forked version. An example case of this: you fork a repository with a course assignment and the professor subsequently makes a last-minute revision to the assignment. Just pull the changes into your own version!
+- `Fetch origin`: Check whether there are new commits on the GitHub server for this repository
+- `Pull`: Download one or more commits from the GitHub servers to your local computer and merge them into your repository. Or, if you have forked a repository and the original repository has continued to commit revisions, `pull` the revisions from the original version into your own forked version. An example case of this: you fork a repository with a course assignment and the professor subsequently makes a last-minute revision to the assignment. Just pull the changes into your own version!
 - `Pull Request`: Send suggested commits from your own forked version of a repository to the original repository owner. An example case of this: you fork a version of an open source GIS plugin, fix some errors or make some improvements, and send suggested revisions back to the plugin developer.
 
 ### Example GitHub Repository
@@ -86,7 +87,7 @@ We will be using the Jekyll theme [Minimal Mistakes](https://github.com/mmistake
 See documentation and examples [here](https://mmistakes.github.io/minimal-mistakes/).
 Feel free to research and apply other themes on your own.
 
-### Instructions to create your site
+### Create your site
 
 - Go to the [starter template](https://github.com/mmistakes/mm-github-pages-starter/)
 - Use the green "Use this template" button to "Create a new repository".
@@ -103,7 +104,7 @@ Feel free to research and apply other themes on your own.
   - To see the URL, click on the gear icon next to "About" on your repository's homepage
   - Under "Website", select "Use your GitHub Pages website", and save
 
-### Instructions to edit your site
+### Edit your site online
 
 You can make simple revisions to your site on GitHub.com.
 
@@ -115,6 +116,8 @@ You can make simple revisions to your site on GitHub.com.
 - `Commit` the changes with the green button, providing a message and description of the change.
 - Notice a new `Action` is triggered to rebuild your site every time you commit new changes.
 - Once the site rebuild is complete, view the changes in a web browser. You may need to force your web browser to refresh (commonly the `F5` key) in order to see the changes.
+
+### Edit your site locally
 
 I suggest making more substantial revisions to your site on a local computer.
 
@@ -144,33 +147,27 @@ I suggest making more substantial revisions to your site on a local computer.
 | empty middle | | empty middle |
 
 - Return to GitHub Desktop
-- You should notice that GitHub has detected changes in your repository and automatically staged the changes in a list.
-  - Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
-  - Down below, type a commit message, then `commit` the changes to the local repository.
-  - To upload the changes to GitHub online, `push` the changes.
-- Revisit or refresh your website in a browser. It may take some time for the changes you just made to be reflected online; you can check the "Actions" tab on GitHub.com for details.
-
-
-
-
-
-### Make the site your own
-
-Let's see how to edit the site content to make it your own
-
-- customize title, description and user names in `_config.yml`
-- Return to GitHub Desktop
-- You should notice that GitHub has detected changes in your repository and automatically `staged` the changes in a list. Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
+- You should notice that GitHub has automatically detected changes in your repository and `staged` the changes in a list.
+- Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
 - Down below, type a commit message, then `commit` the changes to the local repository.
-- To sync with your online GitHub content, `push` the changes.
-- Revisit or refresh your website in a browser. It may take up to 10 to 15 minutes for the changes you just made to be reflected online.
+- To upload the changes to GitHub online, `push` the changes.
+- Check your repository `Actions` and when the build is finished, view your website in a web browser.
 
-- View online, including the GitHub Actions to render the page
-- customize the `_pages/about.md` page to state the purpose of this page.
-- Save, commit, and push the changes.
-- notice how the `.md` files in the `_posts` folder all begin with a date in `YYYY-MM-DD-post-name.md` format. Let's leave these here for now, but add a new one along the lines of `2023-09-14-gis-science.md`
+### Customize your site
 
-- Open the file and add header information:
+Let's see how to edit the site content to make it your own.
+
+- Open the `_config.yml`. This file is [YAML](https://yaml.org/) code consisting of easily readable `keys` followed by a colon and a `value` or a list of values denoted by dashes. Long values or lists are indented to indicate that they are part of the preceding key.
+- Edit the title, email, description, and user names.
+- Edit the `author` information, which has subkeys for `name`, `avatar` photo, `bio`, and `links` to websites and social media sites. You can delete the information for sites you do not use or add information for more sites. You can update the avatar photo by replacing the existing image file. Link `icons` are from [font awesome](https://fontawesome.com/)
+- You may edit the `skin` by changing from `default` to any from [this list](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#skin). Include the double quotes.
+- `Save`, `commit`, and `push` the `changes`
+
+### Create a new post
+
+- Notice how the `.md` files in the `_posts` folder all begin with a date in `YYYY-MM-DD-post-name.md` format. Let's leave these here for now, but add a new one along the lines of `2023-09-14-gis-science.md`
+- Open the file and add header information (YAML-style) as follows. You may change the `title` or `tags`, but use the same category of capitalized "Blog"
+
 ```
 ---
 title: "Is GIS a Science?"
@@ -182,77 +179,71 @@ tags:
 ---
 ```
 
-- Then add the content of your post! I suggest adding a new sentence on every line.
+- Add the content of your post below the header information.
+- Place each new sentence on a new line, and leave and empty line in between paragraphs. This way, Git can track and visualize your changes on a sentence basis, rather than a paragraph basis.
 - Commit the post, and then try using some different formatting techniques, including lists, tables, bold, italics and links.
+- Try linking to other posts. The convention in the Minimal Mistakes starter template is `/category/title/`. A link to the post `2023-09-14-gis-science.md` with the category `Blog` should be `[link](/Blog/gis-science/)`
 
-### Keep images and other files in an assets folder
+### Save images and other files in an assets folder
 
-- Jeckyll looks to an `assets` folder for images and other content, so lets create one now.
-- add an `assets` folder inside your repository's root directory
-- save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
-- edit your page to include the image, e.g. `![GitHub Logo](/assets/GitHub-Logo.png)`
+Jeckyll looks to an `assets` folder for images and other content, so lets create one now.
 
-![GitHub Logo](/assets/GitHub-Logo.png)
+- Save an image into the `assets/images` folder, e.g. one of the [github logos](https://github.com/logos)
+- Edit your page to include the image, e.g. `![GitHub Logo](/assets/images/GitHub-Logo.png)`
+
+![GitHub Logo](/assets/images/GitHub-Logo.png)
 
 ## Keeping work in sync between GitHub.com and local repositories
 
 To see how GitHub works when you are editing with more than one version of a repository, lets return to github.com
 
-- Edit your index.md file
+- Edit your `about.md` file
 - add or revise some of the text in a small, irrelevant way
 - commit the change
 - return to GitHub Desktop
 - `Fetch origin`
 - now your local files should be updated!
-- in Github Desktop, go to the `History` of your Repository
-- right-click your most recent commit and `revert changes`
-- You should see that your most recent changes made on GitHub.com have been undone. This may require reloading the markdown document in Atom.
-- **caution** if files are open in Atom, do not delete or rename them outside of Atom.
+- in Github Desktop, go to the `History` of your Repository to see the `commit` and visualize it's `diff`
+- Now try deleting a bunch of the irrelevant default posts
+- GitHub Desktop will detect the deletions, and you can `commit` it.
+- Right-click that most recent commit and `revert changes`
+- You should see the deleted posts reappear!
+- **caution** if files are open in Visual Studio, do not delete or rename them outside of Visual Studio.
 - **reminder** always `fetch` changes from GitHub.com before you start working locally, especially if you use multiple computers.
 - **reminder** always remember to `commit` and `push` changes when you are finished working locally
-
-
-- Header information in between `---` lines is [YAML Front Matter](https://jekyllrb.com/docs/front-matter/), and code inside `< >` tags is [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML).
-
-
-
-## Template Customization
-
-Virtually every aspect of a Jekyll template can be customized.
-If you want to do so, copy individual files that you want to customize from the original Jekyll repository, so that your local copy will override the template.
-Alternatively, clone the entire repository to your own local version and customize from there.
-
-
-
 
 ## Cautions with Git
 
 - Git and GitHub are not designed to handle large files `>100mb`
 - Before working, always make sure that you have `pulled` the most recent `commits`
 - Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes, you must undo them all.
-- Therefore, `commit` frequently.
+- Therefore, `commit` frequently, in small packets of changes.
 - Once finished, always remember to `push` your latest commits.
 
+## Further Learning
 
-### Further Learning
-
-Workshops and learning resources
+#### Workshops and learning resources
 
 - Software Carpentry Workshop [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
 - GitHub [learning resources](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
 - Visual Studio Code [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) and [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
 
-Readings
+#### Readings on Git
 
 - [Why Git? Why GitHub?](https://happygitwithr.com/big-picture)
 - Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *American Statistician*, *72*(1), 20–27. <https://doi.org/10.1080/00031305.2017.1399928>
-Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
+- Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
+
+#### Customizing Jekyll Sites
 
 You can develop a more advanced Jekyll sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template.
 Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally.
+Nearly every aspect of a Jekyll site is customizable by downloading the relevant files from the theme's GitHub repository into your own site's repository and modifying them.
+
 Here are some places to start:
 
 - Home of the [Jekyll project](https://jekyllrb.com/), with good documentation and tutorials
+- More information on the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 - A quick [magazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) introduction and start-up guide
 - The [Jekyll Now](https://github.com/barryclark/jekyll-now) theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
 - [Yihui Xie's Blogdown book](https://bookdown.org/yihui/blogdown/) explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating print and online books.
