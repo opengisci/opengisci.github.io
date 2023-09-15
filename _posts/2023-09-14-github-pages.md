@@ -1,33 +1,32 @@
 ---
 layout: lesson
 title: Research and Publish with GitHub
-purpose: "publish a website with GitHub, Jekyll, and Markdown and learn purpose and concepts for Git version control"
+purpose: "learn fundamentals of Git version control and publish a website using Markdown, GitHub, and Jekyll"
 format: tutorial
 date: 2023-09-14 13:30
 term: fa23
 ---
 
+Thanks to [Yifei Luo](https://hegsrr.github.io/people/yifei-luo/) for contributions to this lesson.
+
 ## Expectations
 
 - Publish and customize a GitHub pages site with an 'about' page
 - Add at least one blog post
-
-
+- Your website should be online by `Tuesday, September 19`
 
 ## Git
 
-[Git](https://git-scm.com/) is a free and open source version control system.
+[Git](https://git-scm.com/) is a free and open source version control system for a repositories.
 
-Breaking down each term:
 - Free: you don't have to pay.
 - Open source: transparency, so no backdoors or unpleasant surprises.
 - Version control: if you did something wrong, you can go back to any point in time.
   Also, you can easily collaborate with other people.
+- Repository: Git is designed to keep track of all of the changes for an entire project rather than just one file. A Git repository is folder containing all of the files for a given project. It may contain subfolders for organization within the project and a `.gitignore` file instructing Git not to track changes in specified parts of the repository.
 
-Here is a longer article motivating Git: [Why Git? Why GitHub?](https://happygitwithr.com/big-picture)
-
-- [Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
-- Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
+[Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
+In this course, we will primarily use GitHub's website <https://github.com> and [GitHub Desktop](https://desktop.github.com/) application.
 
 ## GitHub
 
@@ -44,10 +43,15 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
   For example, the [Contributors](https://github.com/qgis/QGIS/graphs/contributors) page under "Insights"
   shows you who contributed to QGIS over time.
 
-- [GitHub](https://github.com) is one of many services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
-  - [GitHub](https://github.com) is a popular platform for hosting open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
-  - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
-  - GitHub also has its own [Desktop Application](https://desktop.github.com/).
+### Key Git and GitHub Actions
+
+- `Clone`: Download a repository (yours or someone else's) to a local computer
+- `Fork`: Make a copy of a repository (yours or someone else's) in your own online GitHub account. This copy may maintain association with the original repository.
+- `Commit`: Save a batch of changes to your repository, including a brief message and description
+- `Revert`: Undo one or more commits.
+- `Push`: Upload one or more commits from the local computer to the GitHub servers
+- `Pull`: Download one or more commits from the GitHub servers to your local computer. Or, if you have forked a repository and the original repository has continued to commit revisions, `pull` the revisions from the original version into your own forked version. An example case of this: you fork a repository with a course assignment and the professor subsequently makes a last-minute revision to the assignment. Just pull the changes into your own version!
+- `Pull Request`: Send suggested commits from your own forked version of a repository to the original repository owner. An example case of this: you fork a version of an open source GIS plugin, fix some errors or make some improvements, and send suggested revisions back to the plugin developer.
 
 ### Example GitHub Repository
 
@@ -62,9 +66,10 @@ Markdown is an easy-to-learn and very efficient language for formatting writing.
 It can be used for writing webpages, blogs, books, computational notebooks, and even scientific articles.
 Markdown is the language for writing issues, wikis, and readme pages on GitHub.
 
-- GitHub has a [Markdown](https://guides.github.com/features/mastering-markdown/) language for writing and formatting everything from Readme documents to Wikis, Issues, and even webpages. Read and bookmark this guide: https://guides.github.com/features/mastering-markdown/
+- GitHub has a [Markdown](https://guides.github.com/features/mastering-markdown/) language for writing and formatting everything from Readme documents to Wikis, Issues, and even webpages.
 - Use this [markdown cheat sheet](/assets/markdown.pdf)
 - Follow this [10 minute tutorial](https://commonmark.org/help/tutorial/)
+- Guide to [Writing on GitHub](https://guides.github.com/features/mastering-markdown/)
 
 Using software like [Jekyll](https://jekyllrb.com/), you can use Markdown to build websites.
 
@@ -75,59 +80,79 @@ Using software like [Jekyll](https://jekyllrb.com/), you can use Markdown to bui
 There are [two types](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) of GitHub Pages sites.
 You can have a **user** site, where the URL will look like `https://<username>.github.io`;
 you can also have a **project** site, where the URL will look like `https://<username>.github.io/<repository>`.
+In this course, we will create a **user** site.
 
-We will be using the Jekyll theme [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
+We will be using the Jekyll theme [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), as a simple but highly customizable theme.
+See documentation and examples [here](https://mmistakes.github.io/minimal-mistakes/).
+Feel free to research and apply other themes on your own.
 
-Head over to [the template](https://github.com/mmistakes/mm-github-pages-starter/) and click on the green "Use this template" button.
-Then, click "Create a new repository".
+### Instructions to create your site
 
-For "Repository name", if you want a **user** site, enter `<username>.github.io`;
-if you want a **project** site, enter a name for your project, such as `geo-blog`.
+- Go to the [starter template](https://github.com/mmistakes/mm-github-pages-starter/)
+- Use the green "Use this template" button to "Create a new repository".
+- Set the `Repository name` to `<username>.github.io`. For example, if your GitHub user name is `josephholler`, the repository name should be `josephholler.github.io`
+- Enter a short Description
+- Click on the green "Create repository" button.
+- If you created a **user** site, GitHub Pages should start building your website automatically.
+- Go to the `Actions` tab of the site repository, and you should see a `pages build and deployment` action. A yellow dot indicates that GitHub is building your site, and a green check mark indicates that GitHub has finished and the site is ready to view.
+- The site URL is the same as the repository name for a user site, e.g. `https://josephholler.github.io`
+- *If* you are building a **project** site:
+  - go to the repository "Settings" --> "Pages" menu
+  - for "Source", choose "Deploy from a branch"
+  - for "Branch", change "None" to "master" and click "Save"
+  - To see the URL, click on the gear icon next to "About" on your repository's homepage
+  - Under "Website", select "Use your GitHub Pages website", and save
 
-Enter an optional Description, and then click on the green "Create repository" button.
+### Instructions to edit your site
 
-If you created a **user** site, GitHub Pages should start building your website automatically.
+You can make simple revisions to your site on GitHub.com.
 
-For **project** sites, head over to "Settings" --> "Pages" on the left sidebar.
-For "Source", choose "Deploy from a branch";
-for "Branch", change "None" to "master" and click "Save".
+- From your repository webpage, find the `_pages/about.md` file
+- Click on the pen button to the top-right to edit the file.
+- On the top left, you can switch between "Edit" and "Preview" to see what the file will look like.
+- The first four lines are header information. Leave these as-is.
+- Edit the content briefly to introduce yourself and the website.
+- `Commit` the changes with the green button, providing a message and description of the change.
+- Notice a new `Action` is triggered to rebuild your site every time you commit new changes.
+- Once the site rebuild is complete, view the changes in a web browser. You may need to force your web browser to refresh (commonly the `F5` key) in order to see the changes.
 
-The yellow dot besides your "Initial commit" indicates that GitHub is building your site.
-Your site is live once the yellow dot turns into a green check mark.
+I suggest making more substantial revisions to your site on a local computer.
 
-To see the URL, click on the gear icon next to "About" on your repository's homepage.
-Under "Website", select "Use your GitHub Pages website", and save.
-
-## Editing your website
-
-### From GitHub
-
-From your repository, click on a file, say, `README.md`.
-
-Click on the pen button to the top-right to edit the file.
-
-On the top left, you can switch between "Edit" and "Preview" to see what the file will look like.
-
-This method is for quick fixes - using it for file uploads or major changes is not recommended.
-
-### From GitHub Desktop and VS Code
-
-- In GitHub Desktop, go to File --> Options and add your account information.
+- Open the GitHub Desktop application.
+- Go to File --> Options and log into your GitHub account.
 - Then go to File --> Clone repository to download your repository to the local computer.
   - Pay attention to the folder to which you are cloning into.
-- Edit some files and save them.
+- Open the [Visual Studio Code](https://code.visualstudio.com/) application
+- Open the root folder of your website repository using the explorer (pages) icon at top left. You can trust yourself as the author.
+- open the `about.md` file again
+- Try the `preview` button (split window with magnifying glass) at the top right for quick previews of your markdown code. This preview does not render *exactly* the same way as Jekyll / GitHub sites, but it's close and saves a lot of trial-and-error time waiting for sites to build.
+- Try making some more edits to the `about.md`.
+- Try adding a table. Notice the empty line before and after the table, vertical bars for separating columns, first row for column headers, second row for indicating alignment with dashes and colons, and one row for each row of the table. There is an empty space between two bars for an empty cell.
+
+```markdown
+
+| First Column | Second Column | Last Column |
+| :----------- | :-----------: | ----------: |
+| left | centered | right |
+| empty middle | | empty middle |
+
+```
+
+| First Column | Second Column | Last Column |
+| :----------- | :-----------: | ----------: |
+| left | centered | right |
+| empty middle | | empty middle |
+
 - Return to GitHub Desktop
 - You should notice that GitHub has detected changes in your repository and automatically staged the changes in a list.
-  Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
-- Down below, type a commit message, then `commit` the changes to the local repository.
-- To sync with your online GitHub content, `push` the changes.
+  - Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
+  - Down below, type a commit message, then `commit` the changes to the local repository.
+  - To upload the changes to GitHub online, `push` the changes.
 - Revisit or refresh your website in a browser. It may take some time for the changes you just made to be reflected online; you can check the "Actions" tab on GitHub.com for details.
 
-[VS Code](https://code.visualstudio.com/) is a popular editor by Microsoft.
-You can use it by installing on your local computer or online at <https://vscode.dev/>
 
-After installing VS Code, you can visit the [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) page to get started.
-There are also some [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos) offered.
+
+
 
 ### Make the site your own
 
@@ -167,7 +192,7 @@ tags:
 - save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
 - edit your page to include the image, e.g. `![GitHub Logo](/assets/GitHub-Logo.png)`
 
-![GitHub Logo?](/assets/GitHub-Logo.png)
+![GitHub Logo](/assets/GitHub-Logo.png)
 
 ## Keeping work in sync between GitHub.com and local repositories
 
@@ -197,14 +222,7 @@ Virtually every aspect of a Jekyll template can be customized.
 If you want to do so, copy individual files that you want to customize from the original Jekyll repository, so that your local copy will override the template.
 Alternatively, clone the entire repository to your own local version and customize from there.
 
-## Fancier Options
 
-You can develop a more advanced sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template. Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally. Here are some places to start:
-
-- Home of the [Jekyll project](https://jekyllrb.com/), with good documentation and tutorials
-- A quick [magazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) introduction and start-up guide
-- The [Jekyll Now](https://github.com/barryclark/jekyll-now) theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
-- [Yihui Xie's Blogdown book](https://bookdown.org/yihui/blogdown/) explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.
 
 
 ## Cautions with Git
@@ -214,3 +232,27 @@ You can develop a more advanced sites customized for portfolios, blogging, docum
 - Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes, you must undo them all.
 - Therefore, `commit` frequently.
 - Once finished, always remember to `push` your latest commits.
+
+
+### Further Learning
+
+Workshops and learning resources
+
+- Software Carpentry Workshop [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
+- GitHub [learning resources](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
+- Visual Studio Code [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) and [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
+
+Readings
+
+- [Why Git? Why GitHub?](https://happygitwithr.com/big-picture)
+- Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *American Statistician*, *72*(1), 20–27. <https://doi.org/10.1080/00031305.2017.1399928>
+Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
+
+You can develop a more advanced Jekyll sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template.
+Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally.
+Here are some places to start:
+
+- Home of the [Jekyll project](https://jekyllrb.com/), with good documentation and tutorials
+- A quick [magazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) introduction and start-up guide
+- The [Jekyll Now](https://github.com/barryclark/jekyll-now) theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
+- [Yihui Xie's Blogdown book](https://bookdown.org/yihui/blogdown/) explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating print and online books.
