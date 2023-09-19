@@ -18,7 +18,7 @@ term: fa23
   - Information about data sources
   - Information about procedures
   - Results, both intermediate and final, that can be used to check the accuracy of a reproduction
-- Use [Draw.io](https://draw.io) to draw a workflow diagram representing your understanding of the research design.
+- Use [Draw.io](https://draw.io) to draw a workflow diagram representing your understanding of the research design, or draw neatly by hand or with a tablet.
 
 ## Lecture and Discussion
 
