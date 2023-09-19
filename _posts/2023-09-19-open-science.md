@@ -11,8 +11,8 @@ term: fa23
 
 - NASEM. 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. [DOI: 10.17226/25303](https://doi.org/10.17226/25303)
   - Chapter 3, *Understanding reproducibility and replicability* (pages 31-43 )
-- Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
-- Dr. Rachel Ainsworth discusses open science culture: https://youtu.be/c-bemNZ-IqA
+- Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. [DOI: 10.1007/s10109-009-0086-8](http://dx.doi.org/10.1007/s10109-009-0086-8)
+- Dr. Rachel Ainsworth discusses open science culture: <https://youtu.be/c-bemNZ-IqA>
 
 ## Discussion
 
@@ -35,19 +35,13 @@ While you read these, consider:
   - government?
   - private businesses?
 
-## Slides
+We can debate this in the context of this ESRI tool for [managing COVID testing sites](https://www.esri.com/en-us/covid-19/response)
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrspcy_84-p4gkNj5I1QLfVtiDdSub7Z8PHRU-pfjJaozepUzG8KLUhZqBELSgOG-XJ-eZa7O5JCMz/embed?start=false&loop=false&delayms=15000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br>
-
-### Resources from the slides
+## Resources
 
 - High-profile coronavirus retractions raise concerns about data oversight, [Nature](https://www.nature.com/articles/d41586-020-01695-w)
-- NSF Project to create a [geospatial virtual data enclave](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1832465&HistoricalAwards=false) and Doug Richardson's [short article about it](https://www.esri.com/about/newsroom/arcnews/dealing-with-geoprivacy-and-confidential-geospatial-data/)
-- Ord, J. K., and A. Getis. 1992. The Analysis of Spatial Association. *Geographical analysis* 24 (3):189–206. [DOI:10.1111/j.1538-4632.1992.tb00261.x](https://doi.org/10.1111/j.1538-4632.1992.tb00261.x)
-- Python spatial analysis library [PySAL](https://pysal.org/)
-- [Rocky Moutain Research Data Center](https://www.census.gov/about/adrm/fsrdc/locations/rocky-mountain.html)
-
-We can debate this in the context of this ESRI tool for [managing COVID testing sites](https://www.esri.com/en-us/covid-19/response)
+- NSF Project to create a [geospatial virtual data enclave](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1832465&HistoricalAwards=false) and Doug Richardson's [short article about it](https://www.esri.com/about/newsroom/arcnews/dealing-with-geoprivacy-and-confidential-geospatial-data/) as an alternative to data centers like [Rocky Mountain Research Data Center](https://www.census.gov/about/adrm/fsrdc/locations/rocky-mountain.html)
+- Sergio Rey has been central in developing the Python spatial analysis library [PySAL](https://pysal.org/)
 
 ### Additional resources on Open GIScience
 
@@ -60,15 +54,18 @@ We can debate this in the context of this ESRI tool for [managing COVID testing 
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
 
-## Open standards and software library implementations
+## Landscape of open standards and software
 
-- The Open Geospatial Consortium (OGC) created [simple features standards](https://www.ogc.org/standards/sfa)
+- The Open Geospatial Consortium [(OGC)](https://www.ogc.org/) develops standards, including [simple features standards](https://www.ogc.org/standards/sfa)
+- The Open Source Geospatial Foundation [(OSGEO)](https://www.osgeo.org/) supports open source geospatial software and education
 - Geometry Engine Open Source (GEOS) is an [open source code library](https://trac.osgeo.org/geos) in C++ for implementing the OGC simple feature standards
-- Who uses GEOS?
+- [PROJ](https://proj.org) similarly implements open standards for map projection.
+- Who uses GEOS and PROJ?
   - [PostGIS](https://postgis.net/) does!
   - [Shapely](https://pypi.org/project/Shapely/) does, which is in turn used by [GeoPandas](https://geopandas.org/) for spatial data science in Python.
-  - [Simple Features for R](https://r-spatial.github.io/sf/) does, which is the basis of spatial analysis in R.
-  - [QGIS](https://qgis.org/) does!
+  - [GDAL](https://gdal.org/) too! and everyone uses GDAL, including...
+  - [Simple Features for R](https://r-spatial.github.io/sf/), the basis for spatial analysis in R, uses GEOS, PROJ and GDAL.
+  - as does [QGIS](https://qgis.org/)!
 
 ## A 'Show Me the Code' Example: Distance Matrix in QGIS
 
