@@ -16,6 +16,7 @@ Chakraborty, J. 2021. Social inequities in the distribution of COVID-19: An intr
 - **fork** the [HEGSRR/RPr-Chakraborty-2021](https://github.com/HEGSRR/RPr-Chakraborty-2021) repository to your own GitHub account
 - **clone** the repository to your local machine
 - **execute** the analysis
+- **document** changes to your understanding of the research design by amending your workflow diagram
 - **comment** any potential errors, uncertainties, or opportunities for improvement
 - **compare** results to the original publication
 - **draft** thoughts highlighting what you have *learned from* this reproduction study so far and *identifying* any errors, uncertain decisions, or opportunities for improving the study design or its reproducibility
