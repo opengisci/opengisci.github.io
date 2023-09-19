@@ -18,16 +18,13 @@ Chakraborty, J. 2021. Social inequities in the distribution of COVID-19: An intr
 - **execute** the analysis
 - **comment** any potential errors, uncertainties, or opportunities for improvement
 - **compare** results to the original publication
-- **write** a final blog post for the course illustrating and interpreting the reproduction results. Include visuals of your results and a link to your version of the repository. In particular, please address these questions:
-  - Has the reproduction deviated from the original study in any way?
-  - If so, are the deviations improvements or errors?
-  - Are there opportunities to further improve the study's research design, reproducibility, or reproducibility for teaching purposes?
-  - Are there opportunities to design meaningful replication studies to further test any theories established by this study?
+- **draft** thoughts highlighting what you have *learned from* this reproduction study so far and *identifying* any errors, uncertain decisions, or opportunities for improving the study design or its reproducibility
 
 ## API: Application Program Interface
 
-This analysis makes use of multiple APIs, including access to data from the Census and from OpenStreetMap.
-An API is an interface for passing data or commands between different software programs ([Wikipedia](https://en.wikipedia.org/wiki/API))
+This analysis makes use of the Census API.
+An API is an interface for passing data or commands between different software programs ([Wikipedia](https://en.wikipedia.org/wiki/API)).
+Examples of APIs in spatial data science include:
 
 - [DHS Surveys](https://api.dhsprogram.com)
 - [Census](https://www.census.gov/data/developers/data-sets.html)

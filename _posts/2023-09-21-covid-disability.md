@@ -11,6 +11,15 @@ term: fa23
 
 1. Chakraborty, J. 2021. Social inequities in the distribution of COVID-19: An intra-categorical analysis of people with disabilities in the U.S. *Disability and Health Journal* 14 (1):101007. DOI: [10.1016/j.dhjo.2020.101007](https://doi.org/10.1016/j.dhjo.2020.101007).
 
+## Reading Activity
+
+- Use [Zotero](https://www.zotero.org/) to import the article and take notes, or print and use highlighters. Highlight the following with different colors for each of:
+  - Concepts being measured / tested
+  - Information about data sources
+  - Information about procedures
+  - Results, both intermediate and final, that can be used to check the accuracy of a reproduction
+- Use [Draw.io](https://draw.io) to draw a workflow diagram representing your understanding of the research design.
+
 ## Lecture and Discussion
 
 For this lecture, please read Chakraborty's (2021) paper thoroughly with the intention of understanding the research methodology. Some of the individual research techniques will be new to you, so try to understand them as well as possible through context clues: what are the inputs, parameters, and outputs of the new techniques?
