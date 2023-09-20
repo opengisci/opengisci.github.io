@@ -20,7 +20,7 @@ Enrolled students, please find course literature [here](https://www.github.com/o
 
 ## Fun Viewing
 
-- Scientific Studies: Last Week Tonight with John Oliver (HBO): https://www.youtube.com/watch?v=0Rnq1NpHdmw&ab_channel=LastWeekTonight
+- Scientific Studies: Last Week Tonight with John Oliver (HBO): <https://www.youtube.com/watch?v=0Rnq1NpHdmw&ab_channel=LastWeekTonight>
 
 ## Discussion and Blog
 
@@ -42,3 +42,7 @@ Specifically, you might reflect on:
 2. Progressing along a linear path
 3. Inherently expansive and growing
 4. Universally applicable
+
+## 2023 is the Year of Open Science
+
+The White House announces new actions to [advance open and equitable research](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/)
