@@ -12,7 +12,11 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 ## Procedure
 
 - **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design
-- **modify** the analysis plan to address the issue identified above, including plans for visualizing/comparing/interpreting results of the change
+- **write** an plan for modifications in markdown, including
+  1. title and author (yourself)
+  2. description of modification(s) with rationale(s)
+  3. plan for visualizing/comparing/interpreting of results
+- **modify** the analysis plan to address the issue identified above
 - **implement** the change in code
 - **interpret** the results of your change(s) in the `rmarkdown` report
 - **knit** a new study report in `pdf` and `html` forms
@@ -28,3 +32,24 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 - Thursday, September 28 Class: Draft analysis plan of proposed changes and plans for interpreting the changes
 - Thursday, September 28 Lab: Finalize analysis plan and commit the plan to GitHub
 - Before Thursday, October 5 Lab: Commit finalized analysis report and blog post to GitHub
+
+## Suggested markdown for analysis plan
+
+```markdown
+# Planned revisions to reproduction of ....
+
+Author: First name, Last name
+
+## Analysis
+
+Enumerate and justify changes to analytical plan here
+
+## Results
+
+Describe how changes will be visualized / compared here
+
+## Discussion
+
+Describe how you will interpret the results of your changes here.
+For example, in hypothetical terms, if my new/revised map shows ---, it will mean that ---.
+```
