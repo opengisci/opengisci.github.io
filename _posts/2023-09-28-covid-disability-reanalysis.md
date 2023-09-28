@@ -11,7 +11,12 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 
 ## Procedure
 
-- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design
+- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design. There are at least two things everyone should work on for this reproduction:
+  1. The final choropleth map has a mistaken parameter causing it to only use half of the available color ramp.
+  2. move the "rational for the updated report" section to the very end
+  3. Improve the formatting of the missing data table with `Kable` and/or `KableExtra` functions and/or by transposing the table to vertical orientation.
+  3. Integrate Emily's discussion and any new results that have yet to be discussed into a new discussion section.
+  4. Separate a conclusions section from the discussion that concludes whether the reproduction attempt was successful, and what the implications are for how the original study contributes to scientific knowledge.
 - **write** an plan for modifications in markdown, including:
   1. title and author (yourself)
   2. description of modification(s) with rationale(s)
