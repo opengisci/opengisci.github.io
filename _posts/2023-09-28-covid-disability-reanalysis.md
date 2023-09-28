@@ -27,8 +27,8 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 - **modify** the main `01-Rpr-Chakraborty.Rmd` analysis plan & code to address the issue identified above
 - **implement** the change in code
 - **interpret** the results of your change(s) in the `rmarkdown` report
-- **knit** a new study report in `pdf` and `html` forms
-- enable **GitHub Pages** on the repository to serve the `html` version of the report to the web
+- **knit** a new study report in `pdf` and `html` forms. See [this video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9cc5514a-2c8a-42b9-a974-b08b01190226)
+- enable **GitHub Pages** on the repository to serve the `html` version of the report to the web. 
 - **write** a blog post highlighting what you have `learned from` and `contributed to` with this reproduction and reanalysis study. In particular, please address these questions:
   - What have you learned from doing a reproduction study?
   - Has the reproduction deviated from the original study in any way?
