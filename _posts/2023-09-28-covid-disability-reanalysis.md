@@ -12,16 +12,20 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 ## Procedure
 
 - **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design
-- **write** an plan for modifications in markdown, including
+- **write** an plan for modifications in markdown, including:
   1. title and author (yourself)
   2. description of modification(s) with rationale(s)
   3. plan for visualizing/comparing/interpreting of results
-- **modify** the analysis plan to address the issue identified above
+  4. save as `docs/reports/<name>-analysis-plan.md`, e.g. `docs/reports/holler-analysis-plan.md`
+  5. `commit` the plan and `push` to GitHub
+  6. this is a small-scale version of a [preregistration](https://www.cos.io/initiatives/prereg)
+- **modify** the main `01-Rpr-Chakraborty.Rmd` analysis plan & code to address the issue identified above
 - **implement** the change in code
 - **interpret** the results of your change(s) in the `rmarkdown` report
 - **knit** a new study report in `pdf` and `html` forms
 - enable **GitHub Pages** on the repository to serve the `html` version of the report to the web
 - **write** a blog post highlighting what you have `learned from` and `contributed to` with this reproduction and reanalysis study. In particular, please address these questions:
+  - What have you learned from doing a reproduction study?
   - Has the reproduction deviated from the original study in any way?
   - If so, are the deviations improvements or errors?
   - Are there opportunities to further improve the study's research design, reproducibility, or reproducibility for teaching purposes?
