@@ -23,7 +23,28 @@ Meeting | Lesson
 
 ## Members of Fall 2023
 
-*t.b.d*
+[abatt34](https://abatt34.github.io)  ~
+[alanalutz](https://alanalutz.github.io)  ~
+[alexxuyide](https://alexxuyide.github.io)  ~
+[andreyjcao](https://andreyjcao.github.io)  ~
+[andya17](https://andya17.github.io)  ~
+[annikahoerner](https://annikahoerner.github.io)  ~
+[audreyrpark](https://audreyrpark.github.io)  ~
+[azalecki](https://azalecki.github.io)  ~
+[benjamincordola](https://benjamincordola.github.io)  ~
+[ccassani](https://ccassani.github.io)  ~
+[colman-bashore](https://colman-bashore.github.io)  ~
+[eliseylchan](https://eliseylchan.github.io)  ~
+[gshanleybarr](https://gshanleybarr.github.io)  ~
+[gsokolow](https://gsokolow.github.io)  ~
+[isaiahbennett2](https://isaiahbennett2.github.io)  ~
+[katieheo](https://katieheo.github.io)  ~
+[madgallop](https://madgallop.github.io)  ~
+[pstreufert](https://pstreufert.github.io)  ~
+[shivapriya-nair](https://shivapriya-nair.github.io)  ~
+[sydalexander](https://sydalexander.github.io)  ~
+[t-sutter](https://t-sutter.github.io)  ~
+[whprocter](https://whprocter.github.io)
 
 ## Resources and previous courses
 
