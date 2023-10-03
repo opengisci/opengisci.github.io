@@ -14,12 +14,14 @@ Recall that the NASEM (2019) report chapter 3 included some discussion of *error
   - Chapter 6: *Uncertainty*, (pages 127-153)
 - Tullis, J. A., and B. Kar. 2021. Where Is the Provenance? Ethical Replicability and Reproducibility in GIScience and Its Critical Applications. *Annals of the American Association of Geographers* 111 (5):1318–1328. DOI:[10.1080/24694452.2020.1806029](https://doi.org/10.1080/24694452.2020.1806029)
 
-## Discussion
+## Discussion / Blog Post
 
 I am particularly interested in your interpretation and reaction to figure 6.1 in Longley et al (2008) with regards to the three questions/prompts below:
 1. Do you have first-hand knowledge or experience with uncertainty in spatial/geographic research?
 1. What responsibilities do geographers have with regards to uncertainty in research?
 1. What strategies might geographers use to fulfill those responsibilities?
+
+You could also use this blog post as a way to start synthesizing your observations from the Malcomb et al study by discussing sources of uncertainty in that study *vis a vis* figure 6.1 in Longley et al (2008).
 
 ## Resources
 

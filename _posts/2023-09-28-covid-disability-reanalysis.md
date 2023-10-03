@@ -15,9 +15,9 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
   1. The final choropleth map has a mistaken parameter causing it to only use half of the available color ramp.
   2. move the "rational for the updated report" section to the very end
   3. Improve the formatting of the missing data table with `Kable` and/or `KableExtra` functions and/or by transposing the table to vertical orientation.
-  3. Integrate Emily's discussion and any new results that have yet to be discussed into a new discussion section.
+  3. Integrate Emily's discussion and any new results that have yet to be discussed into a new discussion section. There's no need to repeat information found earlier in the report. Rather, this is a chance to synthesize the findings presented earlier and think about their implications.
   4. Separate a conclusions section from the discussion that concludes whether the reproduction attempt was successful, and what the implications are for how the original study contributes to scientific knowledge.
-- **write** an plan for modifications in markdown, including:
+- **write** a plan for modifications in markdown, including:
   1. title and author (yourself)
   2. description of modification(s) with rationale(s)
   3. plan for visualizing/comparing/interpreting of results
@@ -35,6 +35,7 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
   - If so, are the deviations improvements or errors?
   - Are there opportunities to further improve the study's research design, reproducibility, or reproducibility for teaching purposes?
   - Are there opportunities to design meaningful replication studies to further test any theories established by this study?
+- Keep in mind, a blog post is for **highlights** : aim for a post to be a short and impactful advertisement for the full study... no more than two paragraphs.
 
 ## Timeline
 
