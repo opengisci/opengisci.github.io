@@ -11,12 +11,12 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 
 ## Procedure
 
-- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design. There are at least two things everyone should work on for this reproduction:
-  1. The final choropleth map has a mistaken parameter causing it to only use half of the available color ramp.
-  2. move the "rational for the updated report" section to the very end
-  3. Improve the formatting of the missing data table with `Kable` and/or `KableExtra` functions and/or by transposing the table to vertical orientation.
+- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design. Everyone can contribute to the following on this reproduction:
+  1. The final choropleth map has a mistaken parameter causing it to only use half of the available color ramp
+  2. Improve the formatting of the missing data table with `Kable` and/or `KableExtra` functions and/or by transposing the table to vertical orientation.
   3. Integrate Emily's discussion and any new results that have yet to be discussed into a new discussion section. There's no need to repeat information found earlier in the report. Rather, this is a chance to synthesize the findings presented earlier and think about their implications.
   4. Separate a conclusions section from the discussion that concludes whether the reproduction attempt was successful, and what the implications are for how the original study contributes to scientific knowledge.
+  5. Move the "rationale for the updated report" section to the very end
 - **write** a plan for modifications in markdown, including:
   1. title and author (yourself)
   2. description of modification(s) with rationale(s)
@@ -43,6 +43,14 @@ The purpose of this lab is to reanalyze Chakraborty (2021) and finalize a reprod
 - Thursday, September 28 Class: Draft analysis plan of proposed changes and plans for interpreting the changes
 - Thursday, September 28 Lab: Finalize analysis plan and commit the plan to GitHub
 - Before Thursday, October 5 Lab: Commit finalized analysis report and blog post to GitHub
+
+## General types of improvements/contributions
+
+- If a process is difficult to understand or visualize, break it down into smaller steps and visualize intermediary outputs
+- Improve data visualizations to better understand the study
+- Choose a subjective or questionable research decision and try an alternative
+- Fix any errors or investigate any uncertainties you discover
+- Improve computational efficiency or coding style efficiency
 
 ## Suggested markdown for analysis plan
 
