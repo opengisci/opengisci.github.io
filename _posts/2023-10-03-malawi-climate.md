@@ -45,3 +45,10 @@ The **Spearman's Rho** ranked correlation coefficient allows us to compare two s
 - Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
 - STHDA [Correlation Tests in R](http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
 - R [cor function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)
+
+## Geographic Context
+
+- [Climate Change and African Political Stability](https://www.strausscenter.org/ccaps-research-areas/climate-vulnerability/)
+- [FEWSnet Malawi](https://fews.net/southern-africa/malawi)
+- [World Food Program Malawi](https://www.wfp.org/countries/malawi) 
+- [Malawi reliefweb](https://reliefweb.int/country/mwi)
