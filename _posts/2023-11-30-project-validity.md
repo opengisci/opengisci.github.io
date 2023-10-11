@@ -8,7 +8,7 @@ term: fa23
 
 ## Discussion Blog Post
 
-In one final discussion blog post, please consider the implications of geographic threats to validity for your selected replication or reproduction project. Which threats to validity matter for your study, and do you have any suggestions about how to deal with them?
+In one final discussion blog post, let's revisit the implications of geographic threats to validity in the context of your selected replication or reproduction project. Which threats to validity matter for your study, and do you have any suggestions about how to deal with them?
 This discussion can be integrated into your project report!
 
 ## A typology of geographic threats to validity

@@ -2,7 +2,8 @@
 layout: lesson
 title: Introductory Spatial Python
 purpose: "practice using Python Jupyter notebooks and GeoPandas with cyberinfrastructure"
-format: tutorial
+format: lab
+date: 2023-10-19 13:30
 term: fa23
 ---
 

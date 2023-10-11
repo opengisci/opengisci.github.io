@@ -3,8 +3,7 @@ layout: lesson
 title: Reproducible Research Compendia
 purpose: "lean how to enhance reproducibility with a research compendium"
 format: lecture
-date: 2023-10-26
- 11:15
+date: 2023-10-19 11:15
 term: fa23
 ---
 

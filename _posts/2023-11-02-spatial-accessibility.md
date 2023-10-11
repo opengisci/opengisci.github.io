@@ -7,13 +7,13 @@ date: 2023-11-02 11:15
 term: fa23
 ---
 
+## Analysis
+
+To the best of your ability, draw or outline a workflow for the Kang et al. 2020 analysis. You may work in partners or small groups on this task.
+
 ## Reading
 
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
-
-## Analysis
-
-To the best of your ability, draw or outline a workflow for this analysis. You may work in partners or small groups on this task.
 
 ## Reproduction Study Context
 
