@@ -2,7 +2,7 @@
 layout: lesson
 title: "Writing replications"
 purpose: "discuss best practices for writing replication studies"
-format: lab
+format: lecture
 term: fa23
 ---
 

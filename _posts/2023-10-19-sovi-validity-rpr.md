@@ -3,6 +3,7 @@ layout: lesson
 title: SoVI Validity Reproduction
 purpose: "reproduce Spielman et al's replication of SoVI"
 format: lab
+date: 2023-10-19 13:30
 term: fa23
 ---
 
