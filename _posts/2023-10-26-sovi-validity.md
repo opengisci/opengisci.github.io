@@ -3,7 +3,7 @@ layout: lesson
 title: SoVI Validity Study
 purpose: "study the replication and validity checks of SoVI"
 format: lecture
-date: 2023-10-19 11:15
+date: 2023-10-26 11:15
 term: fa23
 ---
 
