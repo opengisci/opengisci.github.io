@@ -2,7 +2,8 @@
 layout: lesson
 title: "Replication Study Implementation"
 purpose: "implement replication study with research compendium"
-format: lecture
+format: lab
+date: 2023-11-16 13:30
 term: fa23
 ---
 

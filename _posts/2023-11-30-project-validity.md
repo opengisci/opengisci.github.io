@@ -6,4 +6,20 @@ format: lecture
 term: fa23
 ---
 
-- Writing and discussion prompts to demonstrate learning the types of validity and threats to validity as they apply to the replication studies.
+## Discussion Blog Post
+
+In one final discussion blog post, please consider the implications of geographic threats to validity for your selected replication or reproduction project. Which threats to validity matter for your study, and do you have any suggestions about how to deal with them?
+This discussion can be integrated into your project report!
+
+## A typology of geographic threats to validity
+
+- Boundary/Edge Effects
+- Modifiable Aerial Unit Problem
+- Scale Dependency
+- Spatial Dependency/Autocorrelation
+- Spatial Nonstationarity
+- Spatial Heteogeneity 
+
+## Reading
+
+Schmitt, R. R. (1978). Threats to validity involving geographic space. *Socio-Economic Planning Sciences*, *12*(4), 191–195. <https://doi.org/10.1016/0038-0121(78)90044-7>
