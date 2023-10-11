@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: SoVI Validity
+title: Geographic Threats to Validity
 purpose: "disentangle geographic threats to validity"
 format: lecture
 term: fa23
