@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: SoVI Validity
+title: SoVI Validity Reproduction
 purpose: "reproduce Spielman et al's replication of SoVI"
 format: lab
 term: fa23
