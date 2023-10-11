@@ -15,11 +15,6 @@ term: fa23
 
 1. Rmarkdown walkthrough of the analysis in Hanley et al (2003): [Learn-GEE](https://github.com/opengisci/Learn-GEE)
 
-## Save for future date
-1. choice of papers with further context and motivation for open GIScience
-  - Nelson, T. A., Goodchild, M. F., & Wright, D. J. (2022). Accelerating ethics, empathy, and equity in geographic information science. Proceedings of the National Academy of Sciences of the United States of America, 119(19). https://doi.org/10.1073/pnas.2119967119
-  - Rey, S. J. (2022). Big Code. Geographical Analysis, 1–14. https://doi.org/10.1111/gean.12330
-
 ## Key Ideas and Concepts
 
 - Correlation statistics may be based on normal continuous data (Parametric), using Pearson's *R*, or based on ordinal ranked data (Nonparametric) using Spearman's *Rho*. The resulting *R* or *Rho* range from `-1` to `1` where:

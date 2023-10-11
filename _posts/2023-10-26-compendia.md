@@ -3,7 +3,8 @@ layout: lesson
 title: Reproducible Research Compendia
 purpose: "lean how to enhance reproducibility with a research compendium"
 format: lecture
-date: 2023-10-24 11:15
+date: 2023-10-26
+ 11:15
 term: fa23
 ---
 
@@ -25,4 +26,4 @@ term: fa23
 ## Resources
 
 1. Nüst and others are developing infrastructure for containerized executable compendia at [o2r.info/](https://o2r.info/)
-1. Docker containers allow researchers to reproduce and share their research processing environments as docker containers. [www.docker.com/](https://www.docker.com/)
+1. Docker containers allow researchers to reproduce and share their research processing environments as virtual machines which can be run on a server. [www.docker.com/](https://www.docker.com/)

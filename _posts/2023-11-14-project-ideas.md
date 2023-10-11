@@ -10,11 +10,12 @@ During this lesson, we will discuss and decide upon project ideas. Projects shou
 
 ## Fall 2023 Project Ideas
 
-- Complete Spielman et al replication
-- Complete Chakraborty replication
+- Complete Spielman et al replication by analyzing the index stability over time
+- Complete Chakraborty replication with new data
 - Replicate social media studies of disaster
 - Reproduce wildlife corridor analysis in R or Python
 - Replicate data analysis of rainfall and/or river flow for Vermont 2023 storms
+- Propose another idea!
 
 ### How to identify other project ideas
 
