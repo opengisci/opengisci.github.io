@@ -17,6 +17,15 @@ Individual feedback will be provided in the course [Google Drive Folder](https:/
 
 ## Blog Posts
 
+- There are *three* discussion blog posts so far:
+  - Week 1: Science / GIS discourse
+  - Week 2: Open Source GIS / Reproducibility
+  - Week 5: Error / Uncertainty
+
+There are *two* blog posts advertising your reproduction studies so far:
+  - Chakraborty
+  - Malcomb et al (due this week)
+
 - Do posts cite appropriate readings?
 - Is any proofreading / revision necessary?
 - Does the most misinterpret anything from the reading, or miss something important for the argument being made?
@@ -26,7 +35,7 @@ Individual feedback will be provided in the course [Google Drive Folder](https:/
 
 - There are *two* studies thus far:
   - Chakraborty
-  - Malcomb et al
+  - Malcomb et al (due this week)
 
 - Do each of the studies have a post highlighting interesting findings from the report?
 - Have each of the studies been published with a Git repository?

@@ -28,15 +28,6 @@ The learning goals are to:
 - Review the **pre-analysis plan** for the reproduction study.
 - **Study** and **execute** the reproduction study code using RStudio. **Take notes** for yourself comparing the code to your own workflow for the research paper, identifying similarities and differences between the two.
 
-## Final Product
-
-Your final product from the workshop should be an extended *blog post* using the results and experience of this reproduction study to evaluate Malcomb et al (2014) in the framework of Tate (2013)'s assessment of error and uncertainty in spatial vulnerability models.
-
-The blog post should make use of:
-- The Malcomb et al (2014) publication
-- The Tate (2013) publication (see [next lesson](/2021/11/09/vulnerability-uncertainty))
-- The Malcomb et al (2014) https://github.com/HEGSRR/RPr-Malcomb-2014
-
 ### Georeferencing Maps
 
 In the spring 2021 semester, we learned how to digitize results from the map figures in the Malcomb et al publication for comparison with our attempted exact reproduction results.
