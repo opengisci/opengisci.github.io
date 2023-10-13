@@ -32,7 +32,6 @@ Meeting | Lesson
 [audreyrpark](https://audreyrpark.github.io)  ~
 [azalecki](https://azalecki.github.io)  ~
 [benjamincordola](https://benjamincordola.github.io)  ~
-[ccassani](https://ccassani.github.io)  ~
 [colman-bashore](https://colman-bashore.github.io)  ~
 [eliseylchan](https://eliseylchan.github.io)  ~
 [gshanleybarr](https://gshanleybarr.github.io)  ~
