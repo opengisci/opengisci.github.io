@@ -39,7 +39,6 @@ Meeting | Lesson
 [isaiahbennett2](https://isaiahbennett2.github.io)  ~
 [katieheo](https://katieheo.github.io)  ~
 [madgallop](https://madgallop.github.io)  ~
-[pstreufert](https://pstreufert.github.io)  ~
 [shivapriya-nair](https://shivapriya-nair.github.io)  ~
 [sydalexander](https://sydalexander.github.io)  ~
 [t-sutter](https://t-sutter.github.io)  ~
