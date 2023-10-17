@@ -23,7 +23,6 @@ Meeting | Lesson
 
 ## Members of Fall 2023
 
-[abatt34](https://abatt34.github.io)  ~
 [alanalutz](https://alanalutz.github.io)  ~
 [alexxuyide](https://alexxuyide.github.io)  ~
 [andreyjcao](https://andreyjcao.github.io)  ~
