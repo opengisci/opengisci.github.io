@@ -27,7 +27,6 @@ Meeting | Lesson
 [alexxuyide](https://alexxuyide.github.io)  ~
 [andreyjcao](https://andreyjcao.github.io)  ~
 [andya17](https://andya17.github.io)  ~
-[annikahoerner](https://annikahoerner.github.io)  ~
 [audreyrpark](https://audreyrpark.github.io)  ~
 [azalecki](https://azalecki.github.io)  ~
 [benjamincordola](https://benjamincordola.github.io)  ~

@@ -28,7 +28,7 @@ There are *two* blog posts advertising your reproduction studies so far:
 
 - Do posts cite appropriate readings?
 - Is any proofreading / revision necessary?
-- Does the most misinterpret anything from the reading, or miss something important for the argument being made?
+- Does the post misinterpret anything from the reading, or miss something important for the argument being made?
 - Are posts related to a workshop activity using data for that workshop and linking to relevant repositories?
 
 ## Reproduction/Replication Studies
