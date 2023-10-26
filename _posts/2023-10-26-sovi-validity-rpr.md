@@ -27,6 +27,8 @@ We will adjust the SoVI construction to *weight* the SoVI components by the perc
 7. Create an output table of factor loadings for national SoVI. These are stored in the `weights_rot` table of PCA output
 8. Calculate and output the percent variance explained by each component of the national SoVI. This is typically the eigenvalue of a component divided by the sum of all eigenvalues. Eigenvalues are the same as the sum of squared loadings. In this case, percent variance can be calculated as `sum_sq_load_rot / sum(eigenvals_all)`
 9. Reweight the SoVI by the percentage variance explained of each component, rather than using a simple sum of the components. The bulk of this should happen around steps M5-M8. 
+10. After running all of the code, export your notebook as an `html` file and save to the `docs` folder
+11. Update your website with blog & links to the study.
 
 ## Update
 
