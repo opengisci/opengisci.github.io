@@ -8,6 +8,7 @@ term: fa23
 
 As week in which a reanalysis is being finished, there is no assigned discussion blog.
 We will start with a discussion of one of the aspirational readings listed below.
+Instead of having any required reading, you may work on your Spielman et al Reproduction.
 Following discussion, we may invite a guest speaker, or jump into an introduction to network analysis.
 
 ## Readings
