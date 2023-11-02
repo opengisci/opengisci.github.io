@@ -61,6 +61,15 @@ By the end of lab, you should have:
 - One advantage of using a JupyterHub server is that server administrators can set up multiple Python environments from which to choose. For this lab, let's use the default `Python 3` environment.
 - Switch to the file browser panel and find the `procedure\code\02_COVID-19_Acc-Original.ipynb` notebook
 - Verify that the `kernel` processing environment for the notebook is `Python 3` (at top-right corner of the notebook)
+- Run the notebook. There are three decisions to make in order to create different outputs, so I suggest group members try different combinations of these decisions:
+  - Street network: buffered or not?
+  - Population: people over 50, or COVID patients?
+  - Service: ICU beds, or ventilators?
+- Note how long the hospital catchment process took to run and enter results in this GOOGLE FORM (link to be added)
+- Save results, and then open `procedure\code\03_COIVD-19_Acc-Reanalysis.ipynb`
+- Execute the code, trying differnet combinations of Population and Service
+- Note how long the hospital catchment process took to run and enter results in this GOOGLE FORM (link to be added)
+- Take notes on how this reanalysis different from the original notebook.
 
 Transitioning to next week you should:
 - Compare the code repository to the published paper and brainstorm ways in which the code repository could be improved with regards to computational efficiency/speed, reproducibility, uncertainty, errors, cartography, aesthetics, readability...
