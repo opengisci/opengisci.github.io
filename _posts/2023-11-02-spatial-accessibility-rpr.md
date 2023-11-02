@@ -7,7 +7,7 @@ date: 2023-11-02 13:30
 term: fa23
 ---
 
-The goal of this lab is to get accustomed to working in a cyberinfrastructure environment with Python, Jupyter notebooks, and GitHub integration.
+The goal of this lab is to get accustomed to working in a cyberinfrastructure environment with Python, Jupyter notebooks, and GitHub integration, and understand how to implement spatial accessibility analysis in Python.
 We will do so with the Jupyter notebook published to accompany [Kang et al (2020)](https://doi.org/10.1186/s12942-020-00229-x).
 The notebook has been published on [CyberGISX](https://cybergisxhub.cigi.illinois.edu/notebook/rapidly-measuring-spatial-accessibility-of-covid-19-healthcare-resources-a-case-study-of-illinois-usa/) and maintained in a [GitHub repository](https://github.com/cybergis/COVID-19AccessibilityNotebook).
 We have published the results of our prior reproduction and reanalysis studies in this repository: <https://github.com/HEGSRR/RPr-Kang-2020>
