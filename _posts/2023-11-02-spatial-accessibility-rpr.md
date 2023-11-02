@@ -61,6 +61,7 @@ By the end of lab, you should have:
 - One advantage of using a JupyterHub server is that server administrators can set up multiple Python environments from which to choose. For this lab, let's use the default `Python 3` environment.
 - Switch to the file browser panel and find the `procedure\code\02_COVID-19_Acc-Original.ipynb` notebook
 - Verify that the `kernel` processing environment for the notebook is `Python 3` (at top-right corner of the notebook)
+- Because this environment is already set up, you *do not need to install* any packages!
 - Run the notebook. There are three decisions to make in order to create different outputs, so I suggest group members try different combinations of these decisions:
   - Street network: buffered or not?
   - Population: people over 50, or COVID patients?
@@ -74,7 +75,7 @@ By the end of lab, you should have:
 Transitioning to next week you should:
 - Compare the code repository to the published paper and brainstorm ways in which the code repository could be improved with regards to computational efficiency/speed, reproducibility, uncertainty, errors, cartography, aesthetics, readability...
 
-## Software References
+ ## Software References
 
 - Python package for OpenStreetMap and specifically for network data in OSM: osmnx [documents](https://osmnx.readthedocs.io/en/stable/), [repository](https://github.com/gboeing/osmnx) and [examples repository](https://github.com/gboeing/osmnx-examples), and repository for version [0.11.4](https://github.com/gboeing/osmnx/releases/tag/v0.11.4)
 - Python package for network analysis: [networkx](https://networkx.org/)
