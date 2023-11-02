@@ -15,6 +15,8 @@ To the best of your ability, draw or outline a workflow for the Kang et al. 2020
 
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
 
+[Slides](https://docs.google.com/presentation/d/1FHEqnvVDNZ8r4CrRMUGkjXiEGwqEPjgn3z0rXL4xRvs/edit?usp=sharing) (class access only)
+
 ## Reproduction Study Context
 
 - Kang et al (2020) describes the analysis and cyberinfrastructure behind the spatial access component of this [Where COVID-19 dashboard for Illinois](https://wherecovid19.cigi.illinois.edu/spatialAccess.html)

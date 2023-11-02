@@ -6,9 +6,11 @@ format: lecture
 term: fa23
 ---
 
-## Discussion Blog Post
+## Discussion
 
-In a discussion blog post, please reflect on the implications of geographic threats to validity for the studies we have examined or for other geographic research projects you have been working on. Which threats to validity matter in your selected case(s), and do you have any suggestions about how to deal with them?
+In a discussion we will reflect on the implications of geographic threats to validity for the studies we have examined or for other geographic research projects you have been working on. Which threats to validity matter in your selected case(s), and do you have any suggestions about how to deal with them?
+
+It is not necessary to write a blog post this week, but you should integrate discussion of geographic threats to validity in your report on the Kang et al 2020 reproduction study.
 
 ## A typology of geographic threats to validity
 

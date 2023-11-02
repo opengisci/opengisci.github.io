@@ -11,6 +11,8 @@ We will start with a discussion of one of the aspirational readings listed below
 Instead of having any required reading, you may work on your Spielman et al Reproduction.
 Following discussion, we may invite a guest speaker, or jump into an introduction to network analysis.
 
+[Slides](https://docs.google.com/presentation/d/1FHEqnvVDNZ8r4CrRMUGkjXiEGwqEPjgn3z0rXL4xRvs/edit?usp=sharing) (class access only)
+
 ## Readings
 
 1. Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). <https://doi.org/10.22224/gistbok/2019.2.4>
