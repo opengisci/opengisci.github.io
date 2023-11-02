@@ -46,7 +46,7 @@ By the end of lab, you should have:
 - Go to `Git` and `Add a remote repository` to clone your `Rpr-Kang-2020` repository into the CyberGISX servers using the web address of your repository on GitHub
 - Try making a small change.
   - E.g. open the main `readme.md`, add your name to the list of authors, and save `readme.md` as a markdown file
-- Open the `Git`` panel from the Git icon at the left
+- Open the `Git` panel from the Git icon at the left
 - The Git menu shows `changed` files 
 - Click the plus button on changed files to `stage` the change, moving the file to `staged`
 - Write a `summary` of changes at the bottom of the Git panel
@@ -65,10 +65,10 @@ By the end of lab, you should have:
   - Street network: buffered or not?
   - Population: people over 50, or COVID patients?
   - Service: ICU beds, or ventilators?
-- Note how long the hospital catchment process took to run and enter results in this GOOGLE FORM (link to be added)
+- Note how long the hospital catchment process took to run and enter results in this [GOOGLE FORM](https://forms.gle/i1Hk3qZdFMhwk2nj7)
 - Save results, and then open `procedure\code\03_COIVD-19_Acc-Reanalysis.ipynb`
 - Execute the code, trying differnet combinations of Population and Service
-- Note how long the hospital catchment process took to run and enter results in this GOOGLE FORM (link to be added)
+- Note how long the hospital catchment process took to run and enter results in this [GOOGLE FORM](https://forms.gle/i1Hk3qZdFMhwk2nj7) 
 - Take notes on how this reanalysis different from the original notebook.
 
 Transitioning to next week you should:
