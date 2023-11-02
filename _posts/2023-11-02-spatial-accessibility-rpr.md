@@ -74,13 +74,6 @@ By the end of lab, you should have:
 Transitioning to next week you should:
 - Compare the code repository to the published paper and brainstorm ways in which the code repository could be improved with regards to computational efficiency/speed, reproducibility, uncertainty, errors, cartography, aesthetics, readability...
 
-## Integrating GitHub with CyberGISX
-
-Below I will outline three workflows. Geog 323 students, please just follow the first two. The third is for reference.
-1. Cloning a GitHub repository into CyberGISX
-1. Making changes on CyberGISX and pushing them to GitHub
-1. Pushing a CyberGISX project to a new GitHub repository
-
 ## Software References
 
 - Python package for OpenStreetMap and specifically for network data in OSM: osmnx [documents](https://osmnx.readthedocs.io/en/stable/), [repository](https://github.com/gboeing/osmnx) and [examples repository](https://github.com/gboeing/osmnx-examples), and repository for version [0.11.4](https://github.com/gboeing/osmnx/releases/tag/v0.11.4)
