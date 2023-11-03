@@ -26,7 +26,8 @@ Projects should contribute to at least one of these goals:
 
 ### How to identify other project ideas
 
-- Attempt to reproduce a straightforward published research study, especially one published with data and code, or with easily accessible public data sources. Reproduction will likely include some degree of reanalysis, in which some parameters of the study are intentionally changed to improve study design or facilitate learning.
+- Attempt to reproduce a straightforward published research study, especially one published with data and code, or with easily accessible public data sources. Reproduction will likely include some degree of reanalysis, in which some parameters of the study are intentionally changed to improve study design or facilitate learning. If you search for new papers, try adding terms like "R", "Python" or "GitHub" to the search. 
+- [CyberGISX](https://cybergisxhub.cigi.illinois.edu/notebooks-discovery/) and [Hydroshare](https://www.hydroshare.org/) all contain published projects. 
 - Develop a project to learn a new package or technology for geospatial analysis or visualization.
 - Replicate an existing study by substantially changing the geographic and/or temporal context
 

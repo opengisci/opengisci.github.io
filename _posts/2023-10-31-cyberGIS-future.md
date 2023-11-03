@@ -22,3 +22,8 @@ Following discussion, we may invite a guest speaker, or jump into an introductio
 
 - Nelson, T. A., Goodchild, M. F., & Wright, D. J. (2022). Accelerating ethics, empathy, and equity in geographic information science. *Proceedings of the National Academy of Sciences of the United States of America*, 119(19). https://doi.org/10.1073/pnas.2119967119
 - Rey, S. J. (2022). Big Code. *Geographical Analysis*, 1–14. https://doi.org/10.1111/gean.12330
+
+## Resources
+
+- The closest thing at Middlebury is the [High-Performance Computing Cluster](https://sites.middlebury.edu/hpcc/)
+- The cyberGIS developed by S. Wang and others is [CyberGISX](https://cybergisxhub.cigi.illinois.edu/)
