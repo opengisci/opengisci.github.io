@@ -35,7 +35,7 @@ Finally, services outside of Chicago were included but population demand on thos
 - [x] How are weights justified for the enhanced distance bands? Would different weights significantly change outcomes? **Done** by some previous student reanalyses.
 - [x] For reproducibility, we should filter hospital types in the code, rather than beforehand. **Done**, but we could not find original data on ventilators.
 - [x] Pay attention to CRSs: are they always transformed when they need to be? Can the final maps be projected? **Done** 
-- [ ] Could area-weighted reaggregation be used for the overlap analysis?
+- [ ] Could area-weighted reaggregation be used for the overlap analysis? This could happen in the `overlap_calc` function.
 - [ ] Why are hexagons used for the analysis as opposed to other spatial data structures, e.g. a raster-like tessellation of squares? In other words, is there a modifiable areal unit problem? Does the use of different sizes and shapes for the unit of analysis matter?
 - [ ] Should the default network speed be set to 35mph?
 
