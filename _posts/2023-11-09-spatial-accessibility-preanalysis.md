@@ -28,15 +28,25 @@ Finally, services outside of Chicago were included but population demand on thos
 
 ### Spring 2021 class questions and ideas for reanalysis
 
-- [ ] There are other models besides two-step catchment analysis for spatial interaction in health geography, e.g. gravity model.
-- [ ] How important or efficient is the network simplification function? Does this impact the locations/connectivity of any hospitals?
-- [ ] Clarify use of packages and functions throughout the code
+- [x] Fix boundary / edge effects stemming from limited extent of road network and need to expand analysis beyond city of Chicago for accurate results within the city. **Done** by including a buffered road network and population/households outside the buffer.
+- [x] Add time benchmark to key sections of code with `%%time` as the first line of the code block to assess the main contribution of the paper: computational speed on cyberinfrastructure. **Done**.
+- [x] How important or efficient is the network simplification function? Does this impact the locations/connectivity of any hospitals? **Done** by counting edges before and after, and by buffering the road network and excluding hospitals beyond the road network.
+- [x] Clarify use of packages and functions throughout the code. **Improved** to a great extent, but it would be far easier for novices to understand the methods without all of the extra code for parallel processing or for dynamically choosing the population and the health resource type.
+- [x] How are weights justified for the enhanced distance bands? Would different weights significantly change outcomes? **Done** by some previous student reanalyses.
+- [x] For reproducibility, we should filter hospital types in the code, rather than beforehand. **Done**, but we could not find original data on ventilators.
+- [x] Pay attention to CRSs: are they always transformed when they need to be? Can the final maps be projected? **Done** 
 - [ ] Could area-weighted reaggregation be used for the overlap analysis?
 - [ ] Why are hexagons used for the analysis as opposed to other spatial data structures, e.g. a raster-like tessellation of squares? In other words, is there a modifiable areal unit problem? Does the use of different sizes and shapes for the unit of analysis matter?
-- [ ] How are weights justified for the enhanced distance bands? Would different weights significantly change outcomes?
-- [ ] For reproducibility, we should filter hospital types in the code, rather than beforehand.
 - [ ] Should the default network speed be set to 35mph?
+
+### Spring 2021 class ideas beyond the scope of a reanalysis
+
+- [ ] There are other models besides two-step catchment analysis for spatial interaction in health geography, e.g. gravity model.
 - [ ] Could other forms of transit be included? Why is the analysis dependent upon personal vehicle use?
 - [ ] Is there a better indicator for hospital capacity other than ventilators or ICU Beds?
-- [ ] Pay attention to CRSs: are they always transformed when they need to be? Can the final maps be projected?
-- [ ]  Add time benchmark to key sections of code with `%%time` as the first line of the code block
+
+### Fall 2023 class questions and ideas for reanalysis
+
+- [ ] 
+- [ ] 
+- [ ] 
