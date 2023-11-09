@@ -47,6 +47,11 @@ Finally, services outside of Chicago were included but population demand on thos
 
 ### Fall 2023 class questions and ideas for reanalysis
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Area-weighted reaggregation of population to hospital catchments
+- [ ] Area-weighted reaggregation of hospital catchments to hexagons
+- [ ] Disaggregate population data into finer geographic units
+- [ ] Mask areas without population from final maps / visualize areas with low accessibility and large populations in final results
+- [ ] Visualize social vulnerability index
+- [ ] Calculate correlation between accessibility and social vulnerability
+- [ ] Fine-tune hospital catchments based on patient behavior, including distances, distance weights
+- [ ] Improve transportation network modeling with factors such as multimodal transportation, traffic congestion, and transportation access/choices for different populations (e.g. people with no cars)

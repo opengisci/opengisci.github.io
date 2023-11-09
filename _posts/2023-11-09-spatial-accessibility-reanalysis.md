@@ -13,8 +13,10 @@ Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Sha
 
 ## Procedure
 
-- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design. Everyone can contribute to the following on this reproduction:
-- **choose** whether your modification should be placed in `02-COVID-19Acc-Original` (for something that aims to more completely or accurately match the original study) or `03-COVID-19Acc-Reanalysis` (for something that intends to modify the original study design)
+- **identify** an error, uncertain decision, or opportunity for improving reproducibility or study design. There's a majority of folks interested in two feasible updates to this study, so let's have everyone try both. 
+  - improve speed limit information. To do this, replace the `network_setting` function with use of the `osmnx.speed` module. Note how this changes the speed limit data checks before & after `network_setting`.
+  - improve translation from hospital catchments into hexagons. To do this, focus on the `overlap_calc` function. Try commenting every line of this function with its purpose before changing anything.
+- **open** the `03-COVID-19Acc-Reanalysis` notebook and work with this notebook for this reanalysis. 
 - **write** a new markdown cell `Original Study Design` with one paragraph summarizing the original study, as the first section after the title markdown cell.
 - **write** a new markdown section `Original Study Design` with one paragraph summarizing the original study
   2. description of your planned modification(s) with rationale(s)
@@ -24,7 +26,7 @@ Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Sha
   6. this is a small-scale version of a [preregistration](https://www.cos.io/initiatives/prereg)
 - **modify** the main methods cell block(s) to note where you will make changes
 - **commit** and **push** the changes
-- **implement** the change in code
+- **implement** the changes to code and **save** resulting map figures to the `results` folder before and after making each change, so that you can compare whether this changes results.
 - **interpret** the results of your change(s) in a results & discussion section *and* discuss geographic threats to validity in this study. 
 - **conclude** with a statement about how the insights from this reproduction and reanalysis changes how we should interpret the original study results.
 - **save** a new study report `html` form. 
