@@ -17,8 +17,9 @@ Sign up for a Thursday, November 16 [check in time](https://docs.google.com/spre
 
 ## Fall 2023 Project Ideas
 
-- Complete Spielman et al replication by analyzing the index stability over time (pre-analysis plan has been written)
-- Complete Chakraborty replication with new data (pre-analysis plan and preliminary work has been done)
+- Complete Spielman et al replication by analyzing the index stability over time (pre-analysis plan [has been written](https://github.com/HEGSRR/RPl-Spielman-2020/blob/main/docs/report/RPl-Spielman-2020-analysis-plan.pdf))
+- Complete Chakraborty replication with new data (pre-analysis plan and preliminary work [has been done](https://github.com/HEGSRR/RPl-Chakraborty-2022))
+- Replace most parallel processing code in Kang et al with Pandas/Geopandas code as we did for the [overlap analysis](https://github.com/opengisci/FA23/discussions/5#discussioncomment-7535152) / complete SVI portion of the study
 - Replicate social media studies of disaster as in <https://github.com/GIS4DEV/OR-Dorian>
 - Reproduce wildlife corridor analysis in R or Python, which has been done in QGIS model builder with some SAGA tools
 - Replicate data analysis of rainfall and/or river flow for Vermont 2023 storms, ideally starting with R scripts from the USGS <https://owi.usgs.gov/R/> (has this site changed? alternative sources may be <https://github.com/orgs/USGS-R/repositories> or <https://www.usgs.gov/mission-areas/water-resources/science/science-topics/data-science> )
