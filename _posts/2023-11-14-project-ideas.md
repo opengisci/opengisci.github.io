@@ -10,8 +10,8 @@ During this lesson, we will discuss and decide upon project ideas.
 Projects should be similar in difficulty and scope to one of the four labs this semester, and should encompass a research study using spatial analysis with open source GIS technology.
 Projects should contribute to at least one of these goals:
 - increasing transparency/reproducibility
+- assessing the reproducibility of prior research
 - increasing our knowledge about a theory / process through replication
-- 
 
 ## Fall 2023 Project Ideas
 
@@ -23,7 +23,8 @@ Projects should contribute to at least one of these goals:
 - Replicate any of the studies we have done in different geographic regions, for different time periods, or otherwise with different data
 - Otherwise significantly modify the methods approach for any of the studies we have done.
 - Treat tutorial or lab problems from introductory GIS as studies to reproduce, and create R or Python code to solve the problem. 
-- Reproduce any studies on CyberGISX / I-GUIDE / Hydroshare 
+- Reproduce and update our prior studies on spatial analysis of COVID-19. These were written in seperate scripts, and not in our modernized compendium template. They use sptial statistical methods.<https://github.com/HEGSRR/RPr-Saffary-2020>, <https://github.com/HEGSRR/RPr-Vijayan-2020>, or <https://github.com/HEGSRR/RPr-Mollalo-2020>
+- Reproduce any studies on [CyberGISX](https://cybergisxhub.cigi.illinois.edu/notebooks/) / [I-GUIDE](https://iguide.illinois.edu/platform/) / [Hydroshare](https://www.hydroshare.org/) 
 - Propose another idea!
 
 ### How to identify other project ideas
