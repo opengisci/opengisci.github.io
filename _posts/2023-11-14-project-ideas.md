@@ -13,6 +13,8 @@ Projects should contribute to at least one of these goals:
 - assessing the reproducibility of prior research
 - increasing our knowledge about a theory / process through replication
 
+Sign up for a Thursday, November 16 [check in time](https://docs.google.com/spreadsheets/d/1Xjlm4vTzDimZdy71l9tBWk5GCueyGzCmOdNE6LTPKUw/edit?usp=sharing)
+
 ## Fall 2023 Project Ideas
 
 - Complete Spielman et al replication by analyzing the index stability over time (pre-analysis plan has been written)
