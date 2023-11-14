@@ -52,6 +52,7 @@ Projects should contribute to at least one of these goals:
 - Update the index tables `data_index.csv` and `procedure_index.csv` 
 - Commit and push the repository before you start running anlaysis
 - Implement analysis in your Jupyter python notebook or Rmarkdown file
+  - Document and manage the computational environment: in R use `groundhog`; or in Python use a Conda `environment.yml` file or referenc the CyberGIS system and kernel type
 - Add results, discussion, and conclusion sections
 - Render/save an `.html` version of the final study
 - Link to the rendered report from the main `readme.md`
