@@ -15,6 +15,8 @@ term: fa23
 
 The following resources are added to assist with particular student projects.
 
+- [Discussion board](https://github.com/opengisci/FA23/discussions/6)
+
 ### Geographically Weighted Regression (GWR)
 
 - Spatial Modeling for Data Scientists [Chapter 9 Geographically Weighted Regression](https://gdsl-ul.github.io/san/gwr.html)
