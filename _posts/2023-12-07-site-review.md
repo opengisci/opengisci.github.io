@@ -10,6 +10,8 @@ We will take this meeting time to review one another's work in the course thus f
 
 We will also have an opportunity to address any specific challenges arising with projects, based on Thursday's lab section or questions on the discussion forum.
 
+Finally, we will take some time to evaluate the course.
+
 ### Overall Site
 
 - Is there a good main page, raising interest in both the person (as a potential employee…) and the content (evidence of an intellectual GIS maverick?)
