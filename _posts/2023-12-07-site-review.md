@@ -8,6 +8,8 @@ term: fa23
 
 We will take this meeting time to review one another's work in the course thus far.
 
+We will also have an opportunity to address any specific challenges arising with projects, based on Thursday's lab section or questions on the discussion forum.
+
 ### Overall Site
 
 - Is there a good main page, raising interest in both the person (as a potential employee…) and the content (evidence of an intellectual GIS maverick?)
@@ -16,13 +18,11 @@ We will take this meeting time to review one another's work in the course thus f
 
 ### Blog Posts
 
-- There are *six* posts thus far:
+- There are *four* posts:
   - What is Open GIScience?
   - Open Source GIS & Reproducibility
   - Error & Uncertainty
-  - Open CyberGIS Community
-  - Malawi Vulnerability Model & Uncertainty
-  - Humanitarian GIS
+  - Geographic threats to validity in your project
 
 - Do posts cite appropriate readings?
 - Is any proofreading / revision necessary?
@@ -31,10 +31,11 @@ We will take this meeting time to review one another's work in the course thus f
 
 ### Labs
 
-- There are *three* labs thus far:
-  - Dar es Salaam Resilience in PostGIS SQL
-  - Chicago COVID-19 Spatial Accessibility in Python
-  - Twitter Disasters in R
+- There are *four* labs:
+  - Chakraborty
+  - Malcomb et al
+  - Spielman et al
+  - Kang et al
 
 - Have each of the lab analyses been published with a Git repository?
 - Do each of the lab have a post with interesting findings from the lab report?
@@ -46,4 +47,3 @@ We will take this meeting time to review one another's work in the course thus f
   - code
   - visualization of results
   - interpretation of results in relation to relevant course readings?
-- Can any steps be taken to improve reproducibility of the lab?
