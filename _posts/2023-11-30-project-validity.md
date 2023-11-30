@@ -24,6 +24,7 @@ This discussion can be integrated into your project report!
 
 - IGuide [Convergence Curriculum](https://iguide.illinois.edu/projects/convergence-curriculum-for-geospatial-data-science/)
 - [Geospatial Competency Model](https://www.careeronestop.org/competencymodel/competency-models/geospatial-technology.aspx)
+- Class-only google doc of [interview questions](https://docs.google.com/document/d/1yQV0M5NDJiTIQfdE_3KjNj95kbrvdrlZnlzGUT5JQIY/edit?usp=sharing)
 
 ## Reading
 
