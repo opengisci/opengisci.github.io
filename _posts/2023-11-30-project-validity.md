@@ -20,6 +20,11 @@ This discussion can be integrated into your project report!
 - Spatial Nonstationarity
 - Spatial Heteogeneity 
 
+## Geospatial career / competency models
+
+- IGuide [Convergence Curriculum](https://iguide.illinois.edu/projects/convergence-curriculum-for-geospatial-data-science/)
+- [Geospatial Competency Model](https://www.careeronestop.org/competencymodel/competency-models/geospatial-technology.aspx)
+
 ## Reading
 
 Schmitt, R. R. (1978). Threats to validity involving geographic space. *Socio-Economic Planning Sciences*, *12*(4), 191–195. <https://doi.org/10.1016/0038-0121(78)90044-7>
