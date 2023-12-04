@@ -36,7 +36,6 @@ Meeting | Lesson
 [gsokolow](https://gsokolow.github.io)  ~
 [isaiahbennett2](https://isaiahbennett2.github.io)  ~
 [katieheo](https://katieheo.github.io)  ~
-[shivapriya-nair](https://shivapriya-nair.github.io)  ~
 [sydalexander](https://sydalexander.github.io)  ~
 [t-sutter](https://t-sutter.github.io)  ~
 [whprocter](https://whprocter.github.io)
