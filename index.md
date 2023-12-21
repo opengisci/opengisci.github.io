@@ -26,7 +26,7 @@ Meeting | Lesson
 [alanalutz](https://alanalutz.github.io)  ~
 [alexxuyide](https://alexxuyide.github.io)  ~
 [andreyjcao](https://andreyjcao.github.io)  ~
-[andya17](https://andya17.github.io/andya17-gis.github.io/)  ~
+[andya17](https://andya17.github.io/)  ~
 [audreyrpark](https://audreyrpark.github.io)  ~
 [azalecki](https://azalecki.github.io)  ~
 [benjamincordola](https://benjamincordola.github.io)  ~
