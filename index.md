@@ -3,6 +3,9 @@ layout: default
 title: Open GIScience
 ---
 
+Looking for Data Science Across the Disciplines?  
+It's here: [opengisci.github.io/dsad/](https://opengisci.github.io/dsad/)
+
 # Fall 2023 Open GIScience
 
 In this course, we will study geographic information science (GIScience) by reproducing published research with open-source geospatial software.
