@@ -15,14 +15,19 @@ Our research products and results will be published with open science standards 
 We typically investigate research with themes of human-environment interactions, health, hazards, urban development, and more.
 These research themes require and integrate social/demographic data, environmental data, and big data.
 
-## Fall 2023
+## Spring 2025
 
 Meeting | Lesson
 :-----: | :----:
 {% for post in site.posts reversed -%}
-{%- if post.term == "fa23" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
+{%- if post.term == "sp25" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
 {% endif -%}
 {% endfor %}
+
+## Past Courses
+
+- Winter 2025 Data Science Across the Disciplines
+- Fall 2023 [Open GIScience](fa23)
 
 ## Members of Fall 2023
 
