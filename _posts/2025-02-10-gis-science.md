@@ -2,13 +2,11 @@
 layout: lesson
 title: Is GIS a Science?
 purpose: "debate whether GIS is a science and contest how GIS is represented"
-format: lecture
+format: discussion
 term: sp25
 ---
 
 ## Reading
-
-Enrolled students, please find course literature [here](https://www.github.com/opengisci/literature), organized by article title, book chapter title, or book title.
 
 - NASEM (National Academies of Sciences, Engineering, and Medicine). 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. DOI:[10.17226/25303](https://doi.org/10.17226/25303)
   - Chapter 2: *Scientific methods and knowledge* (pages 21-30 )
@@ -19,7 +17,7 @@ Enrolled students, please find course literature [here](https://www.github.com/o
 
 ## Fun Viewing
 
-- Scientific Studies: Last Week Tonight with John Oliver (HBO): <https://www.youtube.com/watch?v=0Rnq1NpHdmw&ab_channel=LastWeekTonight>
+- Last Week Tonight with John Oliver (HBO): [Scientific Studies](https://www.youtube.com/watch?v=0Rnq1NpHdmw&ab_channel=LastWeekTonight)
 
 ## Discussion and Blog
 
@@ -42,6 +40,6 @@ Specifically, you might reflect on:
 3. Inherently expansive and growing
 4. Universally applicable
 
-## 2023 is the Year of Open Science
+## 2023 was the Year of Open Science
 
-The White House announces new actions to [advance open and equitable research](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/)
+The White House announced new actions to [advance open and equitable research](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/), but the new White House took that offline. For now, [Science.gov](https://open.science.gov/) appears to remain online.
