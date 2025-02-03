@@ -17,7 +17,7 @@ These research themes require and integrate social/demographic data, environment
 Meeting | Lesson
 :-----: | :----:
 {% for post in site.posts reversed -%}
-{%- if post.term == "sp25" -%} {%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
+{%- if post.term == "sp25" -%} {%- if post.format -%} {{ post.date | date: '%b %e' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
 {% endif -%}
 {% endfor %}
 

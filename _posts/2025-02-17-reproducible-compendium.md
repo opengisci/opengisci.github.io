@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Reproducible Geographic Research
-purpose: "reproducible geographic research with R and a research compendium"
+purpose: "practice reproducible geographic research with R and a research compendium"
 format: workshop
 term: sp25
 ---
