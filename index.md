@@ -24,7 +24,7 @@ Meeting | Lesson
 ## Past Courses
 
 - Winter 2025 [Data Science Across the Disciplines](https://opengisci.github.io/dsad/)
-- Fall 2023 [Open GIScience](fa23)({% link fa23.md %})
+- Fall 2023 [Open GIScience]({% link fa23.md %})
 
 ## Members of Fall 2023
 
