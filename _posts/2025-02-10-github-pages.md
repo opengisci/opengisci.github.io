@@ -231,7 +231,7 @@ To see how GitHub works when you are editing with more than one version of a rep
 
 - [Why Git? Why GitHub?](https://happygitwithr.com/big-picture)
 - Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *American Statistician*, *72*(1), 20–27. <https://doi.org/10.1080/00031305.2017.1399928>
-- Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. https://doi.org/10.1080/10691898.2020.1848485
+- Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. <https://doi.org/10.1080/10691898.2020.1848485>
 
 #### Customizing Jekyll Sites
 

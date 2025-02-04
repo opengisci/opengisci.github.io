@@ -8,14 +8,12 @@ term: sp25
 
 ## Reading
 
-1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
 
-## Application
 
-1. Discuss and study how to use a [template for reproducible research](https://github.com/HEGSRR/HEGSRR-Template)
 
 ## References
 
+1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
 1. Ibanez, L., W. J. Schroeder, and M. D. Hanwell. 2014. Practicing open science. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 241–280. Boca Raton: CRC Press.
 2. Millman, K. J., and F. Perez. 2014. Developing Open-Source Scientific Practice. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 149–183. Boca Raton: CRC Press.
 3. Nüst, D., C. Boettiger, and B. Marwick. 2018. How to Read a Research Compendium. arXiv:[1806.09525](http://arxiv.org/abs/1806.09525).
@@ -26,13 +24,14 @@ term: sp25
 1. Nüst and others are developing infrastructure for containerized executable compendia at [o2r.info/](https://o2r.info/)
 1. Docker containers allow researchers to reproduce and share their research processing environments as virtual machines which can be run on a server. [www.docker.com/](https://www.docker.com/)
 
-## Tutorial
+## Tutorial Application
 
-- Video Tutorial Orientation to Reproducible Geographic Research with Github and R
-  - [normalized audio levels](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=0d30511e-30a1-4e22-a82a-b082011f114a)
-  - [non-normalized audio levels](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=a4152bea-fe8a-4695-95fa-b0840116ec51)
-- [R for Geospatial Processing workshop](https://bakaniko.github.io/FOSS4G2019_Geoprocessing_with_R_workshop/) presented by Nicolas Roelandt in Bucharest, Romania. Here's the [repository](https://github.com/Bakaniko/FOSS4G2019_Geoprocessing_with_R_workshop)
-  - Disregard the `cartography` package and section 5.5 of the workshop. We can do everything we need to do with `tmap`. If you're interested in the more advanced print cartography package for R, you can try cartography's successor: `mapsf` <https://riatelab.github.io/mapsf/>
+In this tutorial, we will get an introduction to practicing open science by:
+
+- Creating a reproducible research compendium from a GitHub [template for reproducible research](https://github.com/HEGSRR/HEGSRR-Template)
+- Using RStudio and R
+- Planning and implementing a gerrymandering study
+- Reproducible R code for downloading and manipulating spatial data
 
 ## Software
 
