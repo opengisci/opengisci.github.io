@@ -220,11 +220,25 @@ To see how GitHub works when you are editing with more than one version of a rep
 
 - Git and GitHub are not designed to handle large files `>100mb`
 - Before working, always make sure that you have `pulled` the most recent `commits`
-- Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes, you must undo them all.
+- Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes in a commit, you must undo them all.
 - Therefore, `commit` frequently, in small packets of changes.
 - Once finished, always remember to `push` your latest commits.
+- Changes to a repository directly on GitHub.com (including uploads, renaming or moving, or directly editing) amount to creating a `branch`, making a `commit`, and a `merge` of the branch with the main branch. Doing so will prevent you from pushing any simultaneous commits from a local computer.
 
-## Further Learning
+## First blog post
+
+Please read two chapters of the NASEM report on reproducibility adn replicability.
+- NASEM (National Academies of Sciences, Engineering, and Medicine). 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. DOI:[10.17226/25303](https://doi.org/10.17226/25303)
+  - Chapter 2: *Scientific methods and knowledge* (pages 21-30)
+  - Chapter 3: *Understanding reproducibility and replicability* (pages 31-43)
+
+Check out how geographers are doing based on recent survey data:
+- Holler, Joseph, Yifei Luo, Peter Kedron, and Sarah Bardin. 2023. “Reproducibility Survey Data Visualization.” OSF. August 15. doi:[10.17605/OSF.IO/B47XU](https://doi.org/10.17605/OSF.IO/B47XU).
+- Holler, Joseph, Yifei Luo, Peter Kedron, and Sarah Bardin. 2023. “Replicability Survey Data Visualization.” OSF. August 15. doi:[10.17605/OSF.IO/KUCHA](https://doi.org/10.17605/OSF.IO/KUCHA). 
+
+Based on your experience in geography and spatial data science and the readings and data above, do you think reproducibility and replicability (R&R) are important in geography? What do you think the greatest challenge to R&R is in geography, and do you see any opportunities to address it?
+
+### Further Learning
 
 #### Workshops and learning resources
 
