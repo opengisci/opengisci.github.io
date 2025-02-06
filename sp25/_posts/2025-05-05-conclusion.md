@@ -1,7 +1,7 @@
 ---
 layout: lesson
-title: Conclusions
-purpose: "appreciate our achievements"
+title: Presentations and Conclusions
+purpose: "review and appreciate our achievements"
 format: workshop
 term: sp25
 ---
@@ -57,6 +57,10 @@ Is generally *not* reinventing the wheel from scratch. It's making incremental i
 - To ensure credit is given for your revisions, please add comments to your Google Doc in response to qualitative feedback.
 - Many students have successfully continued to develop their GitHub pages and portfolios post-graduation, helping lead to future employment and graduate school opportunities! You can start by including significant independent work from your other courses at Middlebury or interesting work / volunteer experiences! The Jekyll theme we used, [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is highly customizable.
 
+## Peer Evaluation
+
+- instructions t.b.d.
+
 ## Self Evaluation
 
-- Self-eval instructions t.b.d.
+- instructions t.b.d.

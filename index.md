@@ -16,37 +16,18 @@ These research themes require and integrate social/demographic data, environment
 
 Meeting | Lesson
 :-----: | :----:
-{% for post in site.posts reversed -%}
-{%- if post.term == "sp25" -%} {%- if post.format -%} {{ post.date | date: '%b %e' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
-{% endif -%}
+{% for post in site.categories.sp25 -%}
+{%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}" {% if post.format == "break" %} style="color: black" {% endif %}>{{ post.title }}</a>
 {% endfor %}
 
-## Past Courses
+## Members of Spring 2025
 
-- Winter 2025 [Data Science Across the Disciplines](https://opengisci.github.io/dsad/)
-- Fall 2023 [Open GIScience]({% link fa23.md %})
-
-## Members of Fall 2023
-
-[alanalutz](https://alanalutz.github.io)  ~
-[alexxuyide](https://alexxuyide.github.io)  ~
-[andreyjcao](https://andreyjcao.github.io)  ~
-[andya17](https://andya17.github.io/)  ~
-[audreyrpark](https://audreyrpark.github.io)  ~
-[azalecki](https://azalecki.github.io)  ~
-[benjamincordola](https://benjamincordola.github.io)  ~
-[colman-bashore](https://colman-bashore.github.io)  ~
-[eliseylchan](https://eliseylchan.github.io)  ~
-[gshanleybarr](https://gshanleybarr.github.io)  ~
-[gsokolow](https://gsokolow.github.io)  ~
-[isaiahbennett2](https://isaiahbennett2.github.io)  ~
-[katieheo](https://katieheo.github.io)  ~
-[sydalexander](https://sydalexander.github.io)  ~
-[t-sutter](https://t-sutter.github.io)  ~
-[whprocter](https://whprocter.github.io)
+...
 
 ## Resources and previous courses
 
+- Winter 2025 Data Science Across the Disciplines [Geography Section](https://opengisci.github.io/dsad/) and [Notebook](https://opengisci.github.io/dsad25_book/)
+- Fall 2023 [Open GIScience]({% link fa23.md %})
 - *Human-Environment and Geographical Sciences (HEGS) Reproducibility and Replicability*  research and broader impacts activities are available at [HEGSRR.github.io](https://HEGSRR.github.io), [www.github.com/HEGSRR](https://www.github.com/HEGSRR) and [osf.io/c5a2r/](https://osf.io/c5a2r/)
 - Previous versions of the Open Source GIScience course (Fall 2019, Spring 2021, and Fall 2021) are available at [gis4dev.github.io](https://gis4dev.github.io)
 - Open Source GIS for Development course content (Spring 2014, Spring 2015, and Spring 2018) can be found in the [GIS4DEV course manual](https://gis4dev.github.io/assets/GIS4DEV.pdf)
