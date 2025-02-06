@@ -12,7 +12,6 @@ Thanks to [Yifei Luo](https://hegsrr.github.io/people/yifei-luo/) for contributi
 
 - Publish and customize a GitHub pages site with an 'about' page
 - Add at least one blog post
-- Your website should be online by `Tuesday, September 19`
 
 ## Git
 
@@ -41,6 +40,12 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 - There are also several other pages with different functions.
   For example, the [Contributors](https://github.com/qgis/QGIS/graphs/contributors) page under "Insights"
   shows you who contributed to QGIS over time.
+
+## Create a GitHub Account
+
+- Please create a [GitHub](https://github.com/)
+- *Remember your email & password*
+- Send the account name to your professor
 
 ### Key Git and GitHub Actions
 

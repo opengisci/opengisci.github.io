@@ -10,11 +10,6 @@ term: sp25
 
 1. Kedron, P. and Holler, J. (2024).  Validation and Verification of Applied GIS Research. The Geographic Information Science & Technology Body of Knowledge (2024 Edition), John P. Wilson (ed.). DOI: [10.22224/gistbok/2024.1.13](https://doi.org/10.22224/gistbok/2024.1.13).
 
-## Spring symposium
-
-As a group, we need to choose one or two research studies to focus on for presentation at Spring Symposium.  
-The application is due on Wednesday.
-
 ## Study possibilities
 
 - Search for and propose a study applying geospatial analysis. It should have available data and be feasible to implement in R or Python

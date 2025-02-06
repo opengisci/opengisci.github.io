@@ -2,7 +2,7 @@
 layout: lesson
 title: Is GIS a Science?
 purpose: "debate whether GIS is a science and contest how GIS is represented"
-format: discussion
+format: assignment
 term: sp25
 ---
 
