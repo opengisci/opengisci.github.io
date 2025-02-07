@@ -170,13 +170,13 @@ Let's see how to edit the site content to make it your own.
 ### Create a new post
 
 - Notice how the `.md` files in the `_posts` folder all begin with a date in `YYYY-MM-DD-post-name.md` format. Let's leave these here for now, but add a new one along the lines of `2023-09-14-gis-science.md`
-- Open the file and add header information (YAML-style) as follows. You may change the `title` or `tags`, but use the same category of capitalized "Blog"
+- Open the file and add header information (YAML-style) as follows. You may change the `title` or `tags`, but use the same category of lower-case `blog`
 
 ```
 ---
 title: "Is GIS a Science?"
 categories:
-  - Blog
+  - blog
 tags:
   - science
   - GIS
