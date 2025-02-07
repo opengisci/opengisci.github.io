@@ -16,5 +16,5 @@ term: sp25
 
 ## Resources
 
-- Recall the resources from the [prior week]({% post_url 2025-02-24-gerrymander-1 %})
+- Recall the resources from the [prior week]({% post_url 2025-02-17-gerrymander-1 %})
 
