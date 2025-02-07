@@ -1,28 +1,19 @@
 ---
 layout: lesson
-title: Reproducible Geographic Research
-purpose: "practice reproducible geographic research with R and a research compendium"
+title: Gerrymandering I
+purpose: "practice reproducible geographic research with a research compendium"
 format: workshop
 term: sp25
 ---
 
-## Reading
+## Goals and Expectations
 
-
-
-
-## References
-
-1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
-1. Ibanez, L., W. J. Schroeder, and M. D. Hanwell. 2014. Practicing open science. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 241–280. Boca Raton: CRC Press.
-2. Millman, K. J., and F. Perez. 2014. Developing Open-Source Scientific Practice. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 149–183. Boca Raton: CRC Press.
-3. Nüst, D., C. Boettiger, and B. Marwick. 2018. How to Read a Research Compendium. arXiv:[1806.09525](http://arxiv.org/abs/1806.09525).
-4. Wilson, J. P., K. Butler, S. Gao, Y. Hu, W. Li, and D. J. Wright. 2021. A Five-Star Guide for Achieving Replicability and Reproducibility When Working with GIS Software and Algorithms. *Annals of the American Association of Geographers* 111 (5):1311–1317. DOI:[10.1080/24694452.2020.1806026](https://doi.org/10.1080/24694452.2020.1806026).
-
-## Resources
-
-1. Nüst and others are developing infrastructure for containerized executable compendia at [o2r.info/](https://o2r.info/)
-1. Docker containers allow researchers to reproduce and share their research processing environments as virtual machines which can be run on a server. [www.docker.com/](https://www.docker.com/)
+- Create a reproducible research compendium
+- Plan a study to measure districting fairness in the context of gerrymandering
+- Knit the analysis plan to `html` format and save to the `docs` folder
+- Create a version `release` of your compendium on GitHub prior to analyzing any data  
+- Based on what you know of the reproducibility crisis and/or your own geographic research projects, post a short blog about the relative value or burden of starting a project with a compendium and analysis plan.
+- Start implementing the study using R
 
 ## Tutorial Application
 
@@ -39,7 +30,7 @@ In this tutorial, we will get an introduction to practicing open science by:
 - RStudio: [posit downloads](https://posit.co/downloads/)
 - GitHub: [Desktop Application](https://desktop.github.com/)
 
-## Essential packages
+## R packages for reproducible spatial analysis
 
 - [groundhog](https://groundhogr.com/) for reproducible computational environments (consistent versions of R and its packages)
 - [here](https://here.r-lib.org/) for reproducible path names
@@ -57,7 +48,24 @@ In this tutorial, we will get an introduction to practicing open science by:
 ## Other Tutorial Resources
 
 - [R Markdown Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html)
+- [Spatial Data Science With applications in R](https://r-spatial.org/book/) by Pebesma and Bivand
 - [Geocomputation with R](https://r.geocompx.org/)
 - [Spatial Data Science](https://rspatial.org)
 - [Introduction to R for Geospatial Data](https://datacarpentry.org/r-intro-geospatial/)
 - [Introduction to Geospatial Raster and Vector Data with R](https://datacarpentry.org/r-raster-vector-geospatial/)
+
+## References
+
+1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
+2. Wilson, J. P., K. Butler, S. Gao, Y. Hu, W. Li, and D. J. Wright. 2021. A Five-Star Guide for Achieving Replicability and Reproducibility When Working with GIS Software and Algorithms. *Annals of the American Association of Geographers* 111 (5):1311–1317. DOI:[10.1080/24694452.2020.1806026](https://doi.org/10.1080/24694452.2020.1806026).
+3. Ibanez, L., W. J. Schroeder, and M. D. Hanwell. 2014. Practicing open science. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 241–280. Boca Raton: CRC Press.
+4. Millman, K. J., and F. Perez. 2014. Developing Open-Source Scientific Practice. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 149–183. Boca Raton: CRC Press.
+5. Nüst, D., C. Boettiger, and B. Marwick. 2018. How to Read a Research Compendium. arXiv:[1806.09525](http://arxiv.org/abs/1806.09525).
+
+### Other templates and tools
+
+1. Nüst and others are developing infrastructure for containerized executable compendia at [o2r.info/](https://o2r.info/)
+2. Docker containers allow researchers to reproduce and share their research processing environments as virtual machines which can be run on a server. [www.docker.com/](https://www.docker.com/)
+3. Carl Boettiger's [research template](https://github.com/cboettig/template)
+4. WORCS Workflow for Open Reproducible Code in Science [R Package](https://cjvanlissa.github.io/worcs/)
+5. Project TIER [Protocol 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/)

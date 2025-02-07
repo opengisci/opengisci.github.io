@@ -2,16 +2,16 @@
 layout: lesson
 title: Research and Publish with GitHub
 purpose: "learn fundamentals of Git version control and publish a website using Markdown, GitHub, and Jekyll"
-format: tutorial
+format: workshop
 term: sp25
 ---
 
 Thanks to [Yifei Luo](https://hegsrr.github.io/people/yifei-luo/) for contributions to this lesson.
 
-## Expectations
+## Goals and Expectations
 
 - Publish and customize a GitHub pages site with an 'about' page
-- Add at least one blog post
+- Add a blog post on open science / R&R in Geography
 
 ## Git
 
@@ -186,7 +186,8 @@ tags:
 - Add the content of your post below the header information.
 - Place each new sentence on a new line, and leave and empty line in between paragraphs. This way, Git can track and visualize your changes on a sentence basis, rather than a paragraph basis.
 - Commit the post, and then try using some different formatting techniques, including lists, tables, bold, italics and links.
-- Try linking to other posts. The convention in the Minimal Mistakes starter template is `/category/title/`. A link to the post `2023-09-14-gis-science.md` with the category `Blog` should be `[link](/Blog/gis-science/)`
+- Try linking to another post, e.g. `2010-01-07-post-standard.md` using the `post_url` liquid tag, e.g. `[link to standard post]({% post_url 2010-01-07-post-standard.md %})`. 
+- Try linking to a page, e.g. the `about.md` page, e.g. `[about me]({% link about.md %})`
 
 ### Save images and other files in an assets folder
 
@@ -225,7 +226,7 @@ To see how GitHub works when you are editing with more than one version of a rep
 - Once finished, always remember to `push` your latest commits.
 - Changes to a repository directly on GitHub.com (including uploads, renaming or moving, or directly editing) amount to creating a `branch`, making a `commit`, and a `merge` of the branch with the main branch. Doing so will prevent you from pushing any simultaneous commits from a local computer.
 
-## First blog post
+## First serious blog post
 
 Please read two chapters of the NASEM report on reproducibility adn replicability.
 - NASEM (National Academies of Sciences, Engineering, and Medicine). 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. DOI:[10.17226/25303](https://doi.org/10.17226/25303)
@@ -236,23 +237,26 @@ Check out how geographers are doing based on recent survey data:
 - Holler, Joseph, Yifei Luo, Peter Kedron, and Sarah Bardin. 2023. “Reproducibility Survey Data Visualization.” OSF. August 15. doi:[10.17605/OSF.IO/B47XU](https://doi.org/10.17605/OSF.IO/B47XU).
 - Holler, Joseph, Yifei Luo, Peter Kedron, and Sarah Bardin. 2023. “Replicability Survey Data Visualization.” OSF. August 15. doi:[10.17605/OSF.IO/KUCHA](https://doi.org/10.17605/OSF.IO/KUCHA). 
 
-Based on your experience in geography and spatial data science and the readings and data above, do you think reproducibility and replicability (R&R) are important in geography? What do you think the greatest challenge to R&R is in geography, and do you see any opportunities to address it?
+Based on your experience in geography and spatial data science and the readings and data above, do you think reproducibility and replicability (R&R) are important in geography? What do you think the greatest challenge to R&R is in geography, and do you see any opportunities to address it? 
+Please post this blog before the next class.
 
-### Further Learning
+Need inspriation? View Last Week Tonight with John Oliver (HBO): [Scientific Studies](https://www.youtube.com/watch?v=0Rnq1NpHdmw&ab_channel=LastWeekTonight)
 
-#### Workshops and learning resources
+## References
+
+### Workshops and learning resources
 
 - Software Carpentry Workshop [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
 - GitHub [learning resources](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
 - Visual Studio Code [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) and [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
 
-#### Readings on Git
+### Readings on Git
 
 - [Why Git? Why GitHub?](https://happygitwithr.com/big-picture)
 - Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? *American Statistician*, *72*(1), 20–27. <https://doi.org/10.1080/00031305.2017.1399928>
 - Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., &#38; Tackett, - M. (2021). Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. *Journal of Statistics and Data Science Education*, *29*(S1), S132–S144. <https://doi.org/10.1080/10691898.2020.1848485>
 
-#### Customizing Jekyll Sites
+### Customizing Jekyll Sites
 
 You can develop a more advanced Jekyll sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template.
 Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally.

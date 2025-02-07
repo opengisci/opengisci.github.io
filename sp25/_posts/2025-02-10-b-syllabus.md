@@ -31,10 +31,11 @@ Prerequisite: *Human Geography with GIS* or *Mapping Global Environmental Change
 Programming experience is *not assumed or required*!
 You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
 
-The major emphasis this fall will be learning how to **manage a full GIScience research workflow** in an **open science framework**. We'’'ll achieve this through:
-- Three **tutorials**, in essential open science research practices: version control, and codified research workflows using Rmarkdown and Python Jupyter Notebooks.
-- **readings**, **debates**, and **blogs** about open GIScience
-- Four **reproduction/reanalysis studies**, in which we will read, repeat, critique, and modify a published GIScience study, producing a reproduction study report.
+The major emphasis this fall will be learning how to **manage a full GIScience research workflow** in an **open science framework**. We will achieve this through:
+- **Workshops / Tutorials** in essential open science research practices
+- A few foundational **readings** about open science, reproducibility and replicability in geography, with **discussion** and reflective  **blogs**
+- Two pre-determined **open GIScience studies**, in which we will learn and practice open science workflows with an original study and with a partial reproduction study.
+
 - One **open science project** in which we will replicate a prior study in a new geographic context, temporal context, or with a new computational approach.
 
 ## Learning Goals
@@ -61,12 +62,11 @@ Accommodations and correspondence about them are confidential.
 Open science requires researchers, universities, and publishers to change the way they value intellectual work and intellectual property, and the same goes for instructors and students.
 Traditional means of evaluating and grading student work that are based on individualism, competition, and secrecy are counterproductive to an open science learning environment.
 
-Throughout this course you will develop a set of your own personal pages and repositories on GitHub, containing all of your work for the course.
+Throughout this course you will develop a set of personal and group pages and repositories on GitHub, containing all of your work for the course.
 You will receive qualitative feedback on your GitHub portfolio work from peers and from your professor throughout the semester, and you will be given opportunities to self-evaluate as-well.
 My goal and expectation for your work is that through revision based on feedback, most students should develop a portfolio suitable to show potential employers or graduate schools, earning at least a B+ or A-.
 
-We will have least two one-on-one meetings during the semester: one in the first two weeks and one at the end.
-Through these meetings and interim written self- and peer-evaluations, you will set goals and accrue qualitative feedback to serve as a roadmap to your personal level of achievement.
+Through mid-semester self- and peer-evaluations, you will set goals and accrue qualitative feedback to serve as a roadmap to your personal level of achievement.
 At the end of the semester, you will submit a final self-evaluation and proposed grade for the course based on your personal goals and the general expectations outlined below.
 The instructor reserves the right to adjust the final grade determination.
 Some people call this an [ungrading](https://www.jessestommel.com/what-is-ungrading/) approach to assessment.
@@ -94,7 +94,7 @@ F | Not attempted
 - **Reproduce** the project by acquiring the same data and executing the same procedures
 - **Reanalyze** the project by adjusting and improving some components of the research design
 - **Replicate** the project by applying it to a new context (thematic, geographic, or temporal)
-- **Communicate** results with a research compendium, report, and highlights blog
+- **Communicate** results with a research compendium, report, and short blog
 
 ## Materials & resources
 
@@ -108,7 +108,6 @@ F | Not attempted
 - Visualize results with maps and/or graphs.
 - Interpret results with support of references to class readings.
 - Generate a webpage (html) result of your work and link to it from a blog post highlighting your contributions.
-- Copresent findings at Spring Symposium
 
 ## Expectations for blog posts
 
