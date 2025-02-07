@@ -186,8 +186,8 @@ tags:
 - Add the content of your post below the header information.
 - Place each new sentence on a new line, and leave and empty line in between paragraphs. This way, Git can track and visualize your changes on a sentence basis, rather than a paragraph basis.
 - Commit the post, and then try using some different formatting techniques, including lists, tables, bold, italics and links.
-- Try linking to another post, e.g. `2010-01-07-post-standard.md` using the `post_url` liquid tag, e.g. `[link to standard post]({% post_url 2010-01-07-post-standard.md %})`. 
-- Try linking to a page, e.g. the `about.md` page, e.g. `[about me]({% link about.md %})`
+- Try linking to another post, e.g. `2010-01-07-post-standard.md` using the `post_url` liquid tag, e.g. {% raw %}`[link to standard post]({% post_url 2010-01-07-post-standard.md %})`{% endraw %}. 
+- Try linking to a page, e.g. the `about.md` page, e.g. {% raw %}`[about me]({% link about.md %})`{% endraw %}
 
 ### Save images and other files in an assets folder
 
