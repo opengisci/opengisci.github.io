@@ -2,12 +2,13 @@
 layout: lesson
 title: Presentations and Conclusions
 purpose: "review and appreciate our achievements"
-format: workshop
+format: conclusions
 term: sp25
 ---
 
 ## Goals and Expectations
 
+- Present reproduction study findings
 - Self evaluation
 - Peer review
 - Course evalution
