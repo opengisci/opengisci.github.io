@@ -12,6 +12,7 @@ term: sp25
 - Discuss your results and conclude the study
 - Knit the study report to `html` format and save to the `docs` folder 
 - Use what you learn from Kedron and Holler (2024) and Schmitt (1978) to frame your goals and interpret your findings
+- Update the project `readme.md` file, `procedure_index.csv`, `data_index.csv`, and `data/metadata` documentation.
 - Create a version `release` of your compendium on GitHub once the analysis is complete and the report is rendered
 - Write a blog post to highlight your findings and link to the report
 

@@ -11,6 +11,7 @@ term: sp25
 - Implement study of gerrymandering using R
 - Discuss your results and conclude the study
 - Knit the study report to `html` format and save to the `docs` folder 
+- Update the project `readme.md` file, `procedure_index.csv`, `data_index.csv`, and `data/metadata` documentation.
 - Create a version `release` of your compendium on GitHub once the analysis is complete and the report is rendered
 - Write a blog post to highlight your findings and link to the report
 

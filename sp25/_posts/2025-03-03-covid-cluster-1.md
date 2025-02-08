@@ -13,6 +13,7 @@ term: sp25
 - Draft an analysis plan as an *orgininal study* for implementing the study up to the point of defining *clusters* to be used in GEE (generalized estimating equation) models.
 - Convert the analysis plan into a *reproduction study*, including the purpose of the reproduction study, any planned devations from the prior study and methods for comparing results
 - Knit the analysis plan to html 
+- Update the project `readme.md` and `LICENSE` files, and documentation of `procedure_index.csv`, `data_index.csv`, and `data/metadata`.
 - Create a version `release` of your compendium on GitHub prior to analyzing any data and commit a version of the repository prior to analyzing data.
 
 ## Reading

@@ -6,6 +6,16 @@ format: workshop
 term: sp25
 ---
 
+## Goals and Expectations
+
+- Self evaluation
+- Peer review
+- Course evalution
+- Post-course survey
+- Finalize edits to GitHub pages and repositories by `Monday, May 19`
+
+## Concluding thoughts
+
 Today is the final day of class together. We need to celebrate and review our accomplishments!
 
 But, there is *always* still more to learn...
@@ -51,16 +61,6 @@ Is generally *not* reinventing the wheel from scratch. It's making incremental i
 - developing and testing educational materials and providing feedback
 - creating new tools, packages, libraries
 
-## GitHub Portfolios
+## Porfolios
 
-- Final evaluation of the GitHub portfolios will occur at the end of Finals Week.
-- To ensure credit is given for your revisions, please add comments to your Google Doc in response to qualitative feedback.
-- Many students have successfully continued to develop their GitHub pages and portfolios post-graduation, helping lead to future employment and graduate school opportunities! You can start by including significant independent work from your other courses at Middlebury or interesting work / volunteer experiences! The Jekyll theme we used, [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is highly customizable.
-
-## Peer Evaluation
-
-- instructions t.b.d.
-
-## Self Evaluation
-
-- instructions t.b.d.
+Many students have successfully continued to develop their GitHub pages and portfolios post-graduation, helping lead to future employment and graduate school opportunities! You can start by including significant independent work from your other courses at Middlebury or interesting work / volunteer experiences! The Jekyll theme we used, [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is highly customizable.

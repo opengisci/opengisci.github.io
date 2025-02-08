@@ -11,6 +11,7 @@ term: sp25
 - Create a reproducible research compendium
 - Plan a study to measure districting fairness in the context of gerrymandering
 - Knit the analysis plan to `html` format and save to the `docs` folder
+- Update the project `readme.md` and `LICENSE` files, and documentation of `procedure_index.csv`, `data_index.csv`, and `data/metadata`.
 - Create a version `release` of your compendium on GitHub prior to analyzing any data  
 - Based on what you know of the reproducibility crisis and/or your own geographic research projects, post a short blog about the relative value or burden of starting a project with a compendium and analysis plan.
 - Start implementing the study using R
