@@ -31,11 +31,10 @@ Prerequisite: *Human Geography with GIS* or *Mapping Global Environmental Change
 Programming experience is *not assumed or required*!
 You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
 
-The major emphasis this fall will be learning how to **manage a full GIScience research workflow** in an **open science framework**. We will achieve this through:
+The major emphasis this spring will be learning how to **manage a full GIScience research workflow** in an **open science framework**. We will achieve this through:
 - **Workshops / Tutorials** in essential open science research practices
 - A few foundational **readings** about open science, reproducibility and replicability in geography, with **discussion** and reflective  **blogs**
 - Two pre-determined **open GIScience studies**, in which we will learn and practice open science workflows with an original study and with a partial reproduction study.
-
 - One **open science project** in which we will replicate a prior study in a new geographic context, temporal context, or with a new computational approach.
 
 ## Learning Goals
@@ -108,6 +107,7 @@ F | Not attempted
 - Visualize results with maps and/or graphs.
 - Interpret results with support of references to class readings.
 - Generate a webpage (html) result of your work and link to it from a blog post highlighting your contributions.
+- All your work is itself reproducible
 
 ## Expectations for blog posts
 
@@ -118,6 +118,23 @@ A draft of the posts should be committed to GitHub prior to the relevant class m
 As is the case for all of your content on GitHub, revisions are permitted until the end of the course.
 
 Posts should include references to relevant readings by listing them at the end (similar to how I have done in this course site) and linking to their DOI, if one is available.
+
+## Spring 2025 Checklist
+
+- [ ] GitHub Pages
+- [ ] Open GIScience Blog
+- [ ] Gerrymandering Research Compendium, Plan, and Report
+- [ ] Gerrymandering Research Blog
+- [ ] COVID Clustering Research Compendium, Plan, and Report
+- [ ] COVID Clustering Research Blog
+- [ ] Mid-term self-evaluation
+- [ ] Annotated Bibliography
+- [ ] Reproduction Study Research Compendium
+- [ ] Reproduction Study Plan
+- [ ] Reproduction Study Plan Blog
+- [ ] Reproduction Study Report
+- [ ] Reproduction Study Blog
+- [ ] Final self-evaluation
 
 ## Honor Code
 
