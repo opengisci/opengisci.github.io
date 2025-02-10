@@ -69,6 +69,7 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 - Git tracks changes *line by line* and markdown collapses adjacent lines into paragraphs, so write one sentence per line and leave blank lines in between paragraphs and design elements.
 - *NEVER* try to store one Git repository inside of another
 - Use simple file and folder names: start with a letter, only letters, numbers and underscores
+- Do not store repositories in synced folders (e.g. OneDrive, Google Drive, Dropbox, etc.)
 
 ### Example GitHub Repository
 
