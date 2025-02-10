@@ -67,6 +67,8 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 - Once finished, always remember to `push` your latest commits.
 - Changes to a repository directly on GitHub.com (including uploads, renaming or moving, or directly editing) amount to creating a `branch`, making a `commit`, and a `merge` of the branch with the main branch. Doing so will prevent you from pushing any simultaneous commits from a local computer.
 - Git tracks changes *line by line* and markdown collapses adjacent lines into paragraphs, so write one sentence per line and leave blank lines in between paragraphs and design elements.
+- *NEVER* try to store one Git repository inside of another
+- Use simple file and folder names: start with a letter, only letters, numbers and underscores
 
 ### Example GitHub Repository
 
