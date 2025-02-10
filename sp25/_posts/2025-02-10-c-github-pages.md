@@ -43,8 +43,8 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 
 ## Create a GitHub Account
 
-- Please create a [GitHub](https://github.com/)
-- *Remember your email & password*
+- Please create a [GitHub](https://github.com/) account
+- *Remember your email & password* and any *authentication* settings
 - Send the account name to your professor
 
 ### Key Git and GitHub Actions
@@ -57,6 +57,16 @@ Let's take a look at [QGIS](https://github.com/qgis/QGIS), which is hosted on Gi
 - `Pull`: Download one or more commits from the GitHub servers to your local computer and merge them into your repository. Or, if you have forked a repository and the original repository has continued to commit revisions, `pull` the revisions from the original version into your own forked version. An example case of this: you fork a repository with a course assignment and the professor subsequently makes a last-minute revision to the assignment. Just pull the changes into your own version!
 - `Fork`: Make a copy of a repository (yours or someone else's) in your own online GitHub account. This copy may maintain association with the original repository.
 - `Pull Request`: Send suggested commits from your own forked version of a repository to the original repository owner. An example case of this: you fork a version of an open source GIS plugin, fix some errors or make some improvements, and send suggested revisions back to the plugin developer.
+
+### Hassle-free Git
+
+- Git and GitHub are not designed to handle large files `>100mb`
+- Before working, always make sure that you have `pulled` the most recent `commits`
+- Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes in a commit, you must undo them all.
+- Therefore, `commit` frequently, in small packets of changes.
+- Once finished, always remember to `push` your latest commits.
+- Changes to a repository directly on GitHub.com (including uploads, renaming or moving, or directly editing) amount to creating a `branch`, making a `commit`, and a `merge` of the branch with the main branch. Doing so will prevent you from pushing any simultaneous commits from a local computer.
+- Git tracks changes *line by line* and markdown collapses adjacent lines into paragraphs, so write one sentence per line and leave blank lines in between paragraphs and design elements.
 
 ### Example GitHub Repository
 
@@ -80,16 +90,16 @@ You can use Markdown to author website content using software like [Jekyll](http
 
 ## Create a GitHub Page
 
-- [GitHub Pages](https://docs.github.com/en/pages) is a service running on GitHub that can serve websites. It can also use Jekyll to build the websites for you.
+[GitHub Pages](https://docs.github.com/en/pages) is a service running on GitHub that can serve websites.
+It can also use [Jekyll](https://jekyllrb.com/) to build the websites for you.
 
-There are [two types](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) of GitHub Pages sites.
-You can have a **user** site, where the URL will look like `https://<username>.github.io`;
-you can also have a **project** site, where the URL will look like `https://<username>.github.io/<repository>`.
-In this course, we will create a **user** site.
-
-We will start with the Jekyll theme [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), as a simple but highly customizable theme.
-See documentation and examples [here](https://mmistakes.github.io/minimal-mistakes/).
-Feel free to research and apply other themes on your own.
+- There are [two types](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) of GitHub Pages sites.
+- **user** sites are built from repositories with names ending in `.github.io` and are served to URLS in the format `https://<username>.github.io`
+- **project** sites are built from any repository with URLs like `https://<username>.github.io/<repository>`.
+- In this course, we will create a **user** site and eventually link to some content in **project** sites.
+- We will start with the Jekyll theme [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), as a simple but highly customizable theme.
+- See documentation and examples [here](https://mmistakes.github.io/minimal-mistakes/).
+- Feel free to research and apply other themes on your own.
 
 ### Create your site
 
@@ -101,12 +111,18 @@ Feel free to research and apply other themes on your own.
 - If you created a **user** site, GitHub Pages should start building your website automatically.
 - Go to the `Actions` tab of the site repository, and you should see a `pages build and deployment` action. A yellow dot indicates that GitHub is building your site, and a green check mark indicates that GitHub has finished and the site is ready to view.
 - The site URL is the same as the repository name for a user site, e.g. `https://josephholler.github.io`
-- *If* you are building a **project** site:
-  - go to the repository "Settings" --> "Pages" menu
-  - for "Source", choose "Deploy from a branch"
-  - for "Branch", change "None" to "master" and click "Save"
-  - To see the URL, click on the gear icon next to "About" on your repository's homepage
-  - Under "Website", select "Use your GitHub Pages website", and save
+- Try viewing the webiste!
+
+- under "Website", select "Use your GitHub Pages website", and save
+
+#### Project sites
+
+Aside: If you want to build a **project** site:
+
+- Go to the repository "Settings" --> "Pages" menu
+- for "Source", choose "Deploy from a branch"
+- for "Branch", change "None" to "master" and click "Save"
+- to see the URL, click on the gear icon next to "About" on your repository's homepage
 
 ### Edit your site online
 
@@ -128,7 +144,7 @@ I suggest making more substantial revisions to your site on a local computer.
 - Open the GitHub Desktop application.
 - Go to File --> Options and log into your GitHub account.
 - Then go to File --> Clone repository to download your repository to the local computer.
-  - Pay attention to the folder to which you are cloning into.
+  - Pay attention to the folder to which you are cloning into!
 - Open the [Visual Studio Code](https://code.visualstudio.com/) application
 - Open the root folder of your website repository using the explorer (pages) icon at top left. You can trust yourself as the author.
 - open the `about.md` file again
@@ -169,7 +185,7 @@ Let's see how to edit the site content to make it your own.
 
 ### Create a new post
 
-- Notice how the `.md` files in the `_posts` folder all begin with a date in `YYYY-MM-DD-post-name.md` format. Let's leave these here for now, but add a new one along the lines of `2023-09-14-gis-science.md`
+- Notice how the `.md` files in the `_posts` folder all begin with a date in `YYYY-MM-DD-post-name.md` format. Let's leave these here for now, but add a new one along the lines of `2025-02-10-gis-science.md`
 - Open the file and add header information (YAML-style) as follows. You may change the `title` or `tags`, but use the same category of lower-case `blog`
 
 ```
@@ -216,15 +232,6 @@ To see how GitHub works when you are editing with more than one version of a rep
 - **caution** if files are open in Visual Studio, do not delete or rename them outside of Visual Studio.
 - **reminder** always `fetch` changes from GitHub.com before you start working locally, especially if you use multiple computers.
 - **reminder** always remember to `commit` and `push` changes when you are finished working locally
-
-## Cautions with Git
-
-- Git and GitHub are not designed to handle large files `>100mb`
-- Before working, always make sure that you have `pulled` the most recent `commits`
-- Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes in a commit, you must undo them all.
-- Therefore, `commit` frequently, in small packets of changes.
-- Once finished, always remember to `push` your latest commits.
-- Changes to a repository directly on GitHub.com (including uploads, renaming or moving, or directly editing) amount to creating a `branch`, making a `commit`, and a `merge` of the branch with the main branch. Doing so will prevent you from pushing any simultaneous commits from a local computer.
 
 ## First serious blog post
 
