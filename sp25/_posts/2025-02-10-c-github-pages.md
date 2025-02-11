@@ -242,6 +242,7 @@ Please read two chapters of the NASEM report on reproducibility adn replicabilit
 - NASEM (National Academies of Sciences, Engineering, and Medicine). 2019. *Reproducibility and Replicability in Science*. Washington, D.C.: National Academies Press. DOI:[10.17226/25303](https://doi.org/10.17226/25303)
   - Chapter 2: *Scientific methods and knowledge* (pages 21-30)
   - Chapter 3: *Understanding reproducibility and replicability* (pages 31-43)
+  - You can find the NASEM 2019 book in our [literature folder](https://drive.google.com/open?id=11yAL9SPrzR-zsNhObABpQ4syqEEJt0jB&usp=drive_fs), in which files are named by their title.
 
 Check out how geographers are doing based on recent survey data:
 - Holler, Joseph, Yifei Luo, Peter Kedron, and Sarah Bardin. 2023. “Reproducibility Survey Data Visualization.” OSF. August 15. doi:[10.17605/OSF.IO/B47XU](https://doi.org/10.17605/OSF.IO/B47XU).
