@@ -22,8 +22,9 @@ In this tutorial, we will get an introduction to practicing open science by:
 
 - Creating a reproducible research compendium from a GitHub [template for reproducible research](https://github.com/HEGSRR/HEGSRR-Template)
 - Using RStudio and R
-- Planning and implementing a gerrymandering study
+- Planning and implementing a gerrymandering study [papers for context](https://drive.google.com/open?id=1WPLbx69EhKRK4LGD9MrZD7bMrF2u9v4b&usp=drive_fs) and [data for Alabama](https://drive.google.com/open?id=1HUFgFcngZBW8Lf0xv_1giY9DSnD4tb6u&usp=drive_fs)
 - Reproducible R code for downloading and manipulating spatial data
+- Learning vignette for [Simple Features in R](https://opengisci.github.io/Learn-Simple-Features/)
 
 ## Software
 
