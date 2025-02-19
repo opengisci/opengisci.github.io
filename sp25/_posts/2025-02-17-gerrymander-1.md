@@ -25,6 +25,8 @@ In this tutorial, we will get an introduction to practicing open science by:
 - Planning and implementing a gerrymandering study [papers for context](https://drive.google.com/open?id=1WPLbx69EhKRK4LGD9MrZD7bMrF2u9v4b&usp=drive_fs) and [data for Alabama](https://drive.google.com/open?id=1HUFgFcngZBW8Lf0xv_1giY9DSnD4tb6u&usp=drive_fs)
 - Reproducible R code for downloading and manipulating spatial data
 - Learning vignette for [Simple Features in R](https://opengisci.github.io/Learn-Simple-Features/)
+- Starter example [research compendium](https://github.com/josephholler/OR-Gerrymander-Alabama)
+- How to release a version
 
 ## Software
 
