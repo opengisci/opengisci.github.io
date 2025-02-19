@@ -24,9 +24,9 @@ In this tutorial, we will get an introduction to practicing open science by:
 - Using RStudio and R
 - Planning and implementing a gerrymandering study [papers for context](https://drive.google.com/open?id=1WPLbx69EhKRK4LGD9MrZD7bMrF2u9v4b&usp=drive_fs) and [data for Alabama](https://drive.google.com/open?id=1HUFgFcngZBW8Lf0xv_1giY9DSnD4tb6u&usp=drive_fs)
 - Reproducible R code for downloading and manipulating spatial data
-- Learning vignette for [Simple Features in R](https://opengisci.github.io/Learn-Simple-Features/)
+- Learning vignette for [Simple Features in R](https://opengisci.github.io/Learn-Simple-Features/) *updated with guidance on Geodesic area and perimeter calculations
 - Starter example [research compendium](https://github.com/josephholler/OR-Gerrymander-Alabama)
-- How to release a version
+- How to [release a version](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5db0d9d-8d7e-40e3-999d-b2890155a3c6)
 
 ## Software
 
