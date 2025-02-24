@@ -8,7 +8,7 @@ term: sp25
 
 ## Goals and Expectations
 
-- Based on reading alone, draw a workflow diagram representing your best guess at Chakraborty's research design.
+- **Before Class**: Based on reading alone, draw a workflow diagram representing your best guess at Chakraborty's research design. You will need a digital version of the workflow for inclusion in your repository, whether drawn digitally or scanned.
 - Create a reproducible compendium for reproducing the study and add data provided by the author.
 - Draft an analysis plan as an *orgininal study* for implementing the study up to the point of defining *clusters* to be used in GEE (generalized estimating equation) models.
 - Convert the analysis plan into a *reproduction study*, including the purpose of the reproduction study, any planned devations from the prior study and methods for comparing results
@@ -22,7 +22,6 @@ term: sp25
 
 ## Resources
 
-- You may use [Draw.io](https://draw.io) or similar software for workflow diagrams.
 - Use [Draw.io](https://draw.io) to draw a workflow diagram representing your understanding of the research design, or draw neatly by hand or with a tablet.
 
 ### Kulldorff spatial scan statistics
