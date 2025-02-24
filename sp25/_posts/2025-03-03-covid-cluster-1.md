@@ -8,7 +8,17 @@ term: sp25
 
 ## Goals and Expectations
 
-- **Before Class**: Based on reading alone, draw a workflow diagram representing your best guess at Chakraborty's research design. You will need a digital version of the workflow for inclusion in your repository, whether drawn digitally or scanned.
+**Before Class**
+
+- Based on reading alone, draw a workflow diagram representing your best guess at Chakraborty's research design. You will need a digital version of the workflow for inclusion in your repository, whether drawn digitally or scanned.
+- I suggest printing the article or using Zotero to highlight three types of clues with three colors:
+  - Data sources and characteristics thereof
+  - Methods and analysis
+  - Intermediary and final results that could be compared with a reproduction study
+- It is unlikley that you will be familiar with all of the methods. At this stage, it is OK to document a method as one "step" in analysis and take notes on *context clues* about how that method works.
+
+**During Class**
+
 - Create a reproducible compendium for reproducing the study and add data provided by the author.
 - Draft an analysis plan as an *orgininal study* for implementing the study up to the point of defining *clusters* to be used in GEE (generalized estimating equation) models.
 - Convert the analysis plan into a *reproduction study*, including the purpose of the reproduction study, any planned devations from the prior study and methods for comparing results
