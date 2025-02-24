@@ -19,6 +19,7 @@ term: sp25
 ## Resources
 
 - Recall the resources from the [prior week]({% post_url 2025-02-17-gerrymander-1 %})
+- Some [draft code](https://josephholler.github.io/OR-Gerrymander-Alabama/Gerrymander_Analysis.html) from Prof Holler
 
 ## Heads up
 
