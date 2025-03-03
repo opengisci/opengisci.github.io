@@ -20,8 +20,10 @@ term: sp25
 **During Class**
 
 - Create a reproducible compendium for reproducing the study and add data provided by the author.
-- Draft an analysis plan as an *orgininal study* for implementing the study up to the point of defining *clusters* to be used in GEE (generalized estimating equation) models.
-- Convert the analysis plan into a *reproduction study*, including the purpose of the reproduction study, any planned devations from the prior study and methods for comparing results
+- Start by **forking** [opengisci/RPr-Chakraborty-2021](https://github.com/opengisci/RPr-Chakraborty-2021), which already contains some data
+- Draft an analysis plan as an *orgininal study* for implementing the study up to the point of defining *clusters* to be used in GEE (generalized estimating equation) models. Use the blank `.Rmd` markdown file template for this.
+- As part of planning, I suggest updating metadata from `xml` format into the newer `markdown` format.
+- Convert the analysis plan of the *original study* into a *reproduction study*, including the purpose of the reproduction study, any planned devations from the prior study and methods for comparing results
 - Knit the analysis plan to html 
 - Update the project `readme.md` and `LICENSE` files, and documentation of `procedure_index.csv`, `data_index.csv`, and `data/metadata`.
 - Create a version `release` of your compendium on GitHub prior to analyzing any data and commit a version of the repository prior to analyzing data.
