@@ -34,11 +34,32 @@ term: sp25
 
 - Use [Draw.io](https://draw.io) to draw a workflow diagram representing your understanding of the research design, or draw neatly by hand or with a tablet.
 
+## Key Ideas
+
+- Reproduction, Replication, Reanalysis, Extension
+- Pearson's R Correlation Coefficient
+- Assumption of statistical independence
+- Spatial Autocorrelation / Spatial Dependence
+- Relative Risk
+- Linear Models
+- Generalized Estimating Equations
+
+## Writing a Reproduction Study Plan
+
+- Abstract: one paragraph summary of original study; one paragraph motivation to reproduce it; full reference for original study
+- Study Design
+  - short summary of plan for reproduction study (what will you compare / test from the original study?)
+  - subsection for "Original study design" with summary of original methods
+- Fill out Data, Methods, and Results sections as if repeating the original study. Flag any **planned deviation for ...** with bold label at the beginning of the paragraph and specify in ... whether the deviation aims to reproduce, replicate, or reanalyze.
+- In Discussion section, ruminate on the conditional implications of results: how will you know if the reproduction study "succeeded", and what will it mean if it succeeds? Fails?
+
 ### Kulldorff spatial scan statistics
 
 - [SaTScan](https://www.satscan.org) software for spatial scan statistics, including a [user guide](https://www.satscan.org/cgi-bin/satscan/register.pl/SaTScan_Users_Guide.pdf)
 - [SpatialEpi Package](https://cran.r-project.org/package=SpatialEpi) R package for spatial epidemiology, and its [GitHub Repository](https://github.com/rudeboybert/SpatialEpi) and [reference manual](https://cran.r-project.org/web/packages/SpatialEpi/SpatialEpi.pdf)
 - [R Data and Methods for Spatial Epidemiology: the SpatialEpi Package](https://faculty.washington.edu/jonno/SISMIDmaterial/SpatialEpiVignette.pdf)
+- Kulldorff, M. (1997). A spatial scan statistic. Communications in Statistics - Theory and Methods, 26(6), 1481–1496. https://doi.org/10.1080/03610929708831995
+- The resources above are collected [here](https://drive.google.com/open?id=1IaQ54qMl3PbrukD3n0D3N4-f9JroqYfd&usp=drive_fs)
 
 ### Relative Risk
 
