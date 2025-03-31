@@ -22,7 +22,12 @@ Meeting | Lesson
 
 ## Members of Spring 2025
 
-...
+- [gushoward](https://gushoward.github.io)
+- [DermotMcMillan](https://DermotMcMillan.github.io)
+- [jorredahl](https://jorredahl.github.io)
+- [lnerbonne](https://lnerbonne.github.io)
+- [mkahngmills](https://mkahngmills.github.io)
+- [padutchfan123](https://padutchfan123.github.io)
 
 ## Resources and previous courses
 
