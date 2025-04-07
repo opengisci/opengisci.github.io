@@ -9,7 +9,7 @@ term: sp25
 ## Welcome to Open Geographic Information Science!
 [Middlebury College](http://www.middlebury.edu) [Geography](http://www.middlebury.edu/academics/geog) [Course](http://www.middlebury.edu/academics/geog/courses) [GEOG0361](https://courses.middlebury.edu/hub/mcug/202520/geog/0361a)
 
-Individual [Google Drive Folders]([SP2025 Google Drive](https://drive.google.com/open?id=1Ir4OwWIJ9RIzeCj9EWozLOLx7ZfAf2dC&usp=drive_fs))
+Individual [Google Drive Folders](https://drive.google.com/open?id=1Ir4OwWIJ9RIzeCj9EWozLOLx7ZfAf2dC&usp=drive_fs)
 
 ## Contact and Availability
 
