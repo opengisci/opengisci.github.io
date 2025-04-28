@@ -9,8 +9,15 @@ term: sp25
 ## Goals and Expectations
 
 - Present reproduction study findings
-- Self evaluation
-- Peer review
+  - 15 mins
+  - Question / Hypothesis
+  - Data sources
+  - Workflow & Study Design
+  - Your findings: what was reproducible (or not)? do your results confirm findings?
+    - What types of barriers prevented reproduction of original results?
+    - What types of uncertainty or threats to validity have you discovered through your efforts?
+    - How have you improved upon the study's reproducibility and/or uncertainty/validity?
+- Peer review: Each group clones and runs another groups' study
 - Course evalution
 - Post-course survey
 - Finalize edits to GitHub pages and repositories by `Monday, May 19`
