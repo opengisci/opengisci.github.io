@@ -24,6 +24,8 @@ term: sp25
 
 ## Concluding thoughts
 
+[FOSS4GNA](https://www.foss4gna.org/) is in Reston Virginia from November 3-5. Shall we present findings?
+
 Today is the final day of class together. We need to celebrate and review our accomplishments!
 
 But, there is *always* still more to learn...
