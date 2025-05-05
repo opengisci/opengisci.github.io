@@ -35,12 +35,6 @@ Today is the final day of class together. We need to celebrate and review our ac
 
 But, there is *always* still more to learn...
 
-We scratched the surface of several different technology platforms for reproducible spatial research:
-
-- GitHub
-- R
-- Python
-
 The wonderful thing is that these platforms all have much of their code base in common, thanks to [OGC](https://www.ogc.org/) and fundamental code libraries like [PROJ](https://proj.org), [GDAL](http://gdal.org/), and [GEOS](https://trac.osgeo.org/geos/). Moreover, there are plenty of free and low-cost training resources for each of these platforms online, and you are free to keep using all of this software on your personal computer!
 
 What you *don't* get from the tutorials is:
@@ -58,6 +52,7 @@ At the top of this list, there are two new open access books on spatial data ana
 
 - [Geographic Data Science with Python](https://geographicdata.science/book/intro.html) by Rey, Arribas-Bel and Wolf, 2023
 - [Spatial Data Science with Applications in R](https://r-spatial.org/book/) by Pebesma and Bivand, 2023.
+- [Data Science Across the Disciplines](https://opengisci.github.io/dsad25_book/)
 - [Data Carpentry Workshops](https://datacarpentry.org/) with free data science workshops
 - [Packt](https://www.packtpub.com/) with low-cost digital books, often accompanied by video tutorials
 - [LinkedIn Learning](https://go.middlebury.edu/lil/) with Lynda tutorial videos for Middlebury students
@@ -65,7 +60,7 @@ At the top of this list, there are two new open access books on spatial data ana
 - [FOSS4G Conferences](https://foss4g.org/) have workshops, applied and research talks, and associated video channels, GitHub repositories, and open-access publications for those who cannot attend in person.
 - [Geo For All](https://www.osgeo.org/initiatives/geo-for-all/), a loose collaborative network of open source education labs
 
-## Ownership in Open Science
+### Ownership in Open Science
 
 Is generally *not* reinventing the wheel from scratch. It's making incremental improvements to scientific knowledge and to the scientific community through...
 
@@ -76,6 +71,17 @@ Is generally *not* reinventing the wheel from scratch. It's making incremental i
 - developing and testing educational materials and providing feedback
 - creating new tools, packages, libraries
 
-## Porfolios
+### Porfolios
 
 Many students have successfully continued to develop their GitHub pages and portfolios post-graduation, helping lead to future employment and graduate school opportunities! You can start by including significant independent work from your other courses at Middlebury or interesting work / volunteer experiences! The Jekyll theme we used, [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) is highly customizable.
+
+## Peer Review
+
+- [ ] Are you allowed to use it? (LICENSE)
+- [ ] Do you understand what the project is about and is it findable? (top level readme.md, mirrored at top of analysis plan)?
+- [ ] Do you understand the data/materials used (data_index.csv and data metadata files, mirrored in data section of analysis plan)?
+- [ ] Do you know how to set up the code environment (computational environment, good use of groundhog to load libraries)?
+- [ ] Do you know which code to run in what orer (procedure_index.csv) ? 
+- [ ] Does the code run? Does it knit to an html?
+- [ ] Peer review the analysis plan / report narrative and figures
+- [ ] Is the writing ethical, as you would like to be replicated/reproduced yourself?
