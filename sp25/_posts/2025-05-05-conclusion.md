@@ -9,6 +9,15 @@ term: sp25
 ## Goals and Expectations
 
 - Present reproduction study findings
+- Concluding thoughts 
+- Course evalution (https://go.middlebury.edu/crf)
+- Post-course surveys (check email for Qualtrics invite)
+- Peer review: Each group clones and runs another groups' study
+- Finalize edits to GitHub pages and repositories by `Monday, May 19`
+
+## Presentations
+
+- Present reproduction study findings
   - 15 mins
   - Question / Hypothesis
   - Data sources
@@ -17,10 +26,6 @@ term: sp25
     - What types of barriers prevented reproduction of original results?
     - What types of uncertainty or threats to validity have you discovered through your efforts?
     - How have you improved upon the study's reproducibility and/or uncertainty/validity?
-- Peer review: Each group clones and runs another groups' study
-- Course evalution
-- Post-course survey
-- Finalize edits to GitHub pages and repositories by `Monday, May 19`
 
 ## Concluding thoughts
 
