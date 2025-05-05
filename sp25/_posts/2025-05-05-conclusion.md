@@ -77,6 +77,14 @@ Many students have successfully continued to develop their GitHub pages and port
 
 ## Peer Review
 
+- Clone the next repository in the list from yours
+- Create an issue with the code below to give feedback. Add additional points below with specific advice
+
+- https://github.com/DermotMcMillan/RPr-CT-crime
+- https://github.com/jorredahl/RPr-Sterling-2023
+- https://github.com/padutchfan123/tuholske-et-al-reproduction 
+
+```
 - [ ] Are you allowed to use it? (LICENSE)
 - [ ] Do you understand what the project is about and is it findable? (top level readme.md, mirrored at top of analysis plan)?
 - [ ] Do you understand the data/materials used (data_index.csv and data metadata files, mirrored in data section of analysis plan)?
@@ -85,3 +93,4 @@ Many students have successfully continued to develop their GitHub pages and port
 - [ ] Does the code run? Does it knit to an html?
 - [ ] Peer review the analysis plan / report narrative and figures
 - [ ] Is the writing ethical, as you would like to be replicated/reproduced yourself?
+```
