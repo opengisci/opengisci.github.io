@@ -94,3 +94,9 @@ Many students have successfully continued to develop their GitHub pages and port
 - [ ] Peer review the analysis plan / report narrative and figures
 - [ ] Is the writing ethical, as you would like to be replicated/reproduced yourself?
 ```
+
+## Final Evaluations
+
+- Located in personal [Google Drive folders](https://drive.google.com/open?id=1Ir4OwWIJ9RIzeCj9EWozLOLx7ZfAf2dC&usp=drive_fs)
+- **Qualitative Feedback** document from your instructor
+- **Personal Evaluation** document from you with proposed final grade and justification
