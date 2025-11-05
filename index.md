@@ -31,6 +31,7 @@ Meeting | Lesson
 
 ## Resources and previous courses
 
+- [Simple Features in R](https://opengisci.github.io/Learn-Simple-Features/)
 - Winter 2025 Data Science Across the Disciplines [Geography Section](https://opengisci.github.io/dsad/) and [Notebook](https://opengisci.github.io/dsad25_book/)
 - Fall 2023 [Open GIScience]({% link fa23.md %})
 - *Human-Environment and Geographical Sciences (HEGS) Reproducibility and Replicability*  research and broader impacts activities are available at [HEGSRR.github.io](https://HEGSRR.github.io), [www.github.com/HEGSRR](https://www.github.com/HEGSRR) and [osf.io/c5a2r/](https://osf.io/c5a2r/)
